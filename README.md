@@ -14,7 +14,7 @@ Data: 11/06/26
 Assunto:
  Escolha de coordenação e Secretaria
 
-Coordenadora: Heloisa Raghetti Cisz
+Coordenadora: Heloisa Raghetti Cisz 
 Secretário: Murilo Liandro da Silva
 
 Função de cada participante no projeto:
