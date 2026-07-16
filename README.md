@@ -39,6 +39,7 @@ Pesquisas
  Uso Equilibrado de Telas
 
 Data:  18/06/26
+
 Ausentes: 
 - Sem ausentes.                         
 
@@ -51,6 +52,7 @@ Assunto:
  Uso Equilibrado de Telas
 
 Data: 25/06/26
+
 Ausentes: 
 - Sem ausentes.
 
@@ -77,4 +79,37 @@ Fazer uma página explicando e dando dicas de como pais e a comunidade de um ado
 
 Página 7-
 Uma página totalmente focada em recursos multimídia, como vídeos mais longos sobre o assunto, especialista falando sobre o assunto, podcasts sobre o assunto, gráficos e infográficos, entre outros.
+
+---
+
+# Ata de Reunião 4 
+ Uso Equilibrado de Telas
+
+Data: 02/07/26.
+
+Ausentes: 
+- Sem ausentes.
+
+Assunto:
+ Explicação sobre GitHub
+
+Na aula de hoje o professor explicou sobre o terminal, GitHub e como clonar repositório.
+O professor foi às mesas e auxiliou os alunos que estavam com dúvidas sobre o uso do GitHub e com o terminal.
+
+---
+# Ata de Reunião 5 
+ Uso Equilibrado de Telas
+
+Data: 09/07/26
+
+Ausentes: 
+- Sem ausentes
+
+Assunto:
+ Pesquisas e algumas alterações no FIGMA e HTML.
+
+Fizemos algumas mudanças no FIGMA, discutimos sobre o layout final do nosso site e também sobre um mascote para o site.
+Finalizamos todas as pesquisas para o site e mexemos no HTML. 
+
+
 
