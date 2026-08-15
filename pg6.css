@@ -1,0 +1,135 @@
+/*Fontes do Site*/
+h1{
+    font-family: "LINE Seed JP", sans-serif;
+}
+
+h2 {
+  font-family: "BBH Bartle", sans-serif;
+}
+
+h3, h4, h5{
+  font-family: "Aboreto", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+   font-family: "Montserrat", sans-serif;
+}
+
+header{
+  background-image: url("imagens/image\ 23.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+  min-width: 100%;
+  padding-bottom: 10vw;
+  padding-inline: 0;
+}
+
+main{
+  padding: 10px 10px 10px 10px;
+}
+header ul{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul li {
+  color: white;
+}
+
+header ul div{
+  display: flex;
+}
+
+header h2{
+  text-align: left;
+  margin: 20px ;
+  color: white;
+  font-size: 4rem;
+  margin: 10vw 20px 0px 20px;
+}
+
+header p{
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 20px;
+}
+
+
+
+
+
+section.videos{
+  text-align: center;
+  background-color: black;
+  padding: 5vw 40px 30px 5vw;
+}
+
+section.videos h3{
+color: white;
+padding: 10px 20px 30px 10px;
+font-size: 4rem
+}
+
+section.videos p{
+color: white;
+font-size: 1.8rem;
+text-align: left;
+}
+
+
+section.videos ul li{
+  display: flex;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+section.videos ul li p{
+  color: black;
+  font-size: 1rem;
+}
+
+
+
+
+
+section.documentario{
+  text-align: center;
+  background-color: black;
+}
+
+section.documentario div{
+  background-color: white;
+  margin: 20px 20px 20px 20px;
+}
+
+
+
+
+
+footer{
+  text-align: center;
+  padding: 10vw 20px 30px 20px;
+}
+
+footer ul{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+footer ul li{
+  text-align: center;
+}
+
+footer a{
+  font-size: 0.7rem;
+}
