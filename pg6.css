@@ -29,9 +29,6 @@ header{
   padding-inline: 0;
 }
 
-main{
-  padding: 10px 10px 10px 10px;
-}
 header ul{
   background-color: black;
   display: flex;
@@ -67,6 +64,17 @@ header p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 section.videos{
   text-align: center;
   background-color: black;
@@ -81,7 +89,7 @@ font-size: 4rem
 
 section.videos p{
 color: white;
-font-size: 1.8rem;
+font-size: 1.5rem;
 text-align: left;
 }
 
@@ -89,13 +97,31 @@ text-align: left;
 section.videos ul li{
   display: flex;
   background-color: white;
-  margin: 10px 10px 10px 10px;
+  margin: 50px 10px 50px 10px;
+  padding: 20px 10px 10px 10px;
 }
 
 section.videos ul li p{
   color: black;
   font-size: 1rem;
+  text-align: left;
+  padding: 10px 10px 20px 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -104,32 +130,71 @@ section.videos ul li p{
 section.documentario{
   text-align: center;
   background-color: black;
+  padding: 40px 40px 40px 40px;
 }
 
 section.documentario div{
   background-color: white;
-  margin: 20px 20px 20px 20px;
+  margin: 40px 20px 20px 20px;
+  padding: 30px 30px 30px;
+  border: 3px solid gray;
 }
+
+section.documentario h2{
+  font-size: 3rem;
+  margin: 30px;
+}
+
+section.documentario p{
+  font-size: 1.3rem;
+  background-color: #EBEBEB;
+  margin: 30px 30px 30px 30px;
+  padding: 20px;
+  border: 1.5px solid black;
+}
+
+section.documentario span{
+  font-weight: bolder;
+}
+
+section.documentario iframe{
+  width: 100%;       /* Ocupa toda a largura disponível */
+  max-width: 1200px; /* Permite crescer até um limite grande */
+  height: 600px;     /* Aumenta a altura fixa */
+  border: none;
+}
+
+
+
+
+
+
+
 
 
 
 
 
 footer{
-  text-align: center;
-  padding: 10vw 20px 30px 20px;
+  padding: 5vw 20px 30px 20px;
 }
 
 footer ul{
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  gap: 17px;
   text-align: center;
 }
 
-footer ul li{
-  text-align: center;
-}
 
-footer a{
+footer h3{
   font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      /* Mantém a proporção original da imagem */
+  object-fit: contain; /* Garante que a imagem não fique distorcida */
 }
