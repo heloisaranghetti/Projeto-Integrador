@@ -14,3 +14,10 @@ h3, h4, h5{
 p {
   font-family: "Montserrat", sans-serif;
 }
+section.conteudo1{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+}section.conteudo1 div img{
+  
+}
