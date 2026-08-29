@@ -26,54 +26,63 @@ body {
   font-family: Arial, sans-serif;
   color: #111111;
 }
-
 header {
-  width: 100%;
-  background-color: #050505;
-  border-bottom: 2px solid #ffffff;
-  background-image: url(imagens/pag3-foto1.png);
+  background-image: url("imagens/pag3-foto1.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% auto;
+  background-position: center center;
   text-align: center;
-  padding-bottom: 10vw;
+  min-width: 100%;
+
+  padding: 5vw 0 10vw 0;
   padding-inline: 0;
 }
-
-header {
-  width: 100%;
-  margin: auto;
-  padding: 10px 20px;
-}
-
-header nav ul {
-  list-style: none;
+header nav {
+  background-color: black;
   display: flex;
-  justify-content: right;
-  padding: 15px;
-}
-
-header nav li {
-  display: flex;
-  text-align: right;
-}
-
-header nav li img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-header h1 {
+  align-items: center;
+  justify-content: space-between;
   color: white;
-  font-size: 4vw;
-  margin-top: 20px;
-  text-transform: uppercase;
+  margin: 4px 30px 5px 10px;
+  border-radius: 40px;
+  padding: 2px 5px 2px 5px;
 }
 
-nav li {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
+header nav img {
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+}
+
+header nav h1 {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul div {
+  display: flex;
+}
+
+header h2 {
+  text-align: left;
+  margin: 20px;
+  color: white;
+  font-size: 4rem;
+  margin: 10vw 20px 0px 20px;
+}
+
+header p {
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 20px;
+  padding: 0vw 0vw 7vw 0vw;
 }
 
 main {
@@ -92,8 +101,15 @@ section.impactos h2 {
   text-transform: uppercase;
   font-size: 6vw;
   font-weight: 900;
-  padding: 15px 20px;
+  padding: 0 20px 0 20px;
   margin-bottom: 20px;
+  padding-inline: 0;
+}
+section.impactos h2 span {
+  color: #111111;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 7vw;
 }
 
 section.impactos p {
@@ -220,9 +236,7 @@ section.social {
 section.social h2 {
   text-align: center;
   text-transform: uppercase;
-
   font-size: 25px;
-
   margin-bottom: 25px;
 }
 
@@ -252,7 +266,6 @@ section.social div {
   flex-direction: column;
   margin: 1%;
   background-color: #050505;
-  padding: 15px;
 }
 section.social div img {
   width: 100%;
@@ -263,29 +276,21 @@ section.social div img {
 }
 footer {
   width: 100%;
-
   background-color: #ffffff;
-
   text-align: center;
-
   padding: 25px 10px;
-
   margin-top: 40px;
 }
 
 footer ul {
   list-style: none;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 20px;
-
   margin-bottom: 15px;
   color: #050505;
 }
-
 footer li {
   display: inline-block;
 }
@@ -300,11 +305,18 @@ footer img {
 }
 
 footer img:hover {
+  background-image: url("imagens/image\ 23.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+  padding-inline: 0;
+  min-width: 100%;
+  padding-bottom: 10vw;
   transform: scale(1.15);
 }
 
 footer p {
-    color: #ffffff;
+  color: #ffffff;
   font-size: 0.9rem;
 }
 
