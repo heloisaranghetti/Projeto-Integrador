@@ -14,10 +14,197 @@ h3, h4, h5{
 p {
   font-family: "Montserrat", sans-serif;
 }
-section.conteudo1{
+header{
+  background-image: url("imagens/image\ 5.png");
+  background-repeat: no-repeat;
+  background-size:  100% auto;
+  background-position: center center;
+  text-align: center;
+  min-width: 100%;
+
+  padding: 2vw 0 20vw 0;
+  padding-inline: 0;
+}
+header nav{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 4px 30px 5px 10px;
+  border-radius: 40px;
+  padding: 2px 5px 2px 5px;
+}
+
+header nav img{
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+}
+
+header nav h1{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+header ul{
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul div{
+  display: flex;
+}
+
+header h2{
+  text-align: left;
+  margin: 20px ;
+  color: white;
+  font-size: 5rem;
+  margin: 6vw 20px 0px 30px;
+}
+
+header p{
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 30px;
+  padding: 0vw 0vw 7vw 0vw;
+}
+
+header ul li a{
+  font-size: 0.9rem;
+  margin: 2px 20px 2px 2px;
+}
+
+header ul li a:hover{
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+section.conteudo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+/* TEXTO */
+section.conteudo1 > div:first-child {
+    width: 55%;
+}
+
+section.conteudo1 h2 {
+    font-family: Georgia, serif;
+    font-size: 70px;
+    line-height: 0.9;
+    margin: 0;
+}
+
+section.conteudo1 h3 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    margin: 30px 0 5px;
+}
+
+section.conteudo1 p {
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+/* IMAGENS */
+section.imagem {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section.imagem img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+section.redes h2{
+  font-family: BBH Bartle;
+  text-align: center;
+  font-size: 3vw;
+}
+section.redes ul li div{
   background-color: black;
   color: aliceblue;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+section.redes ul li div a{
+  color: aliceblue;
+  text-decoration: underline;
+}
+section.redes ul {
   display: flex;
-}section.conteudo1 div img{
-  
+  align-items: center;
+  justify-content: center;
+  margin: 2vw;
+  gap: 3vw ;
+  text-align: center;
+}
+section.redes ul li img{
+  width: 50px;
+  height: 50px;
+}
+section.redes ul li div p{
+  font-size: 20px;
+}.dados {
+background-color: #000; /* Fundo escuro */
+color: #fff; /* Texto claro */
+padding: 40px 20px;
+text-align: center; /* Centraliza o título e o parágrafo principal */
+}
+
+.dados h3 {
+font-size: 1.8rem;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+.dados > p {
+max-width: 600px;
+margin: 0 auto 30px auto;
+color: #ccc;
+}
+
+/* Container dos cards (junta os dois divs filhos) */
+.dados div {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* Estilo individual de cada card */
+.dados div p {
+background-color: #e0e0e0; /* Fundo claro dos cards */
+color: #333; /* Texto escuro dos cards */
+padding: 20px;
+border-radius: 4px;
+
+/* Cria o layout de 2 colunas */
+width: calc(50% - 10px);
+box-sizing: border-box;
+
+text-align: left; /* Alinha o texto dentro do card à esquerda */
 }
