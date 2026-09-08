@@ -1,0 +1,185 @@
+/*Fontes do Site*/
+h1{
+    font-family: "LINE Seed JP", sans-serif;
+}
+
+h2 {
+  font-family: "BBH Bartle", sans-serif;
+}
+
+h3{
+    font-family: "DM Serif Display", serif;
+}
+
+h4, h5{
+  font-family: "Aboreto", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+   font-family: "Montserrat", sans-serif;
+}
+
+header{
+  background-image: url("imagens/image\ 58.png");
+  background-repeat: no-repeat;
+  background-size:  100% auto;
+  background-position: center center;
+  text-align: center;
+  min-width: 100%;
+
+  padding: 2vw 0 20vw 0;
+  padding-inline: 0;
+}
+header nav{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 4px 30px 5px 10px;
+  border-radius: 40px;
+  padding: 2px 5px 2px 5px;
+}
+
+header nav img{
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+}
+
+header nav h1{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+header ul{
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul div{
+  display: flex;
+}
+
+header h2{
+  text-align: left;
+  margin: 20px ;
+  color: white;
+  font-size: 5rem;
+  margin: 6vw 20px 0px 30px;
+}
+
+header p{
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 30px;
+  padding: 0vw 0vw 7vw 0vw;
+}
+
+header ul li a{
+  font-size: 0.9rem;
+  margin: 2px 20px 2px 2px;
+}
+
+header ul li a:hover{
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+section.sobre{
+       margin: 50px 10px 30px 10px;
+       text-align: center;
+}
+
+section.sobre h3{
+  font-size: 4.5rem;
+}
+
+section.sobre p{
+   font-size: 1.5rem;
+   margin: 30px 30px 20px 30px;
+}
+
+section.sobre span{
+   font-weight: bold;
+}
+
+section.equipe{
+  text-align: center;
+}
+
+section.equipe h4{
+  font-size: 4.5rem;
+  margin: 7vw 20px 30px 20px;
+}
+
+section.equipe p{
+   font-size: 1.5rem;
+   margin: 30px 30px 20px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  padding: 5vw 20px 30px 20px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+
+footer h3{
+  font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      /* Mantém a proporção original da imagem */
+  object-fit: contain; /* Garante que a imagem não fique distorcida */
+}
