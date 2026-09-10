@@ -104,7 +104,7 @@ section.sobre h3{
 
 section.sobre p{
    font-size: 1.5rem;
-   margin: 30px 30px 20px 30px;
+   margin: 30px 7vw 10px 7vw;
 }
 
 section.sobre span{
@@ -122,7 +122,34 @@ section.equipe h4{
 
 section.equipe p{
    font-size: 1.5rem;
-   margin: 30px 30px 20px 30px;
+   margin: 10px 7vw 30px 7vw;
+}
+
+section.imagens{
+  margin: 10px 40px 30px 40px;
+}
+
+section.imagens ul{
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+section.imagens ul li{
+  background-color: #F9FAFF;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  margin: 20px 20px 20px 20px;
+
+}
+
+
+
+
+
+
+section.imagens ul li img{
+  width: 50%;
 }
 
 
@@ -134,29 +161,10 @@ section.equipe p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section.grupo{
+  text-align: center;
+  margin: 80px 40px 20px 40px;
+}
 
 
 
@@ -167,7 +175,7 @@ footer{
 footer ul{
   display: flex;
   justify-content: center;
-  gap: 17px;
+  gap: 4vw;
   text-align: center;
 }
 
