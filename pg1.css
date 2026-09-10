@@ -1,18 +1,10 @@
 /*Fontes do Site*/
-h1{
+html{
     font-family: "LINE Seed JP", sans-serif;
-}
-
-h2 {
-  font-family: "BBH Bartle", sans-serif;
-}
-
-h3, h4, h5{
+   font-family: "BBH Bartle", sans-serif;
   font-family: "Aboreto", sans-serif;
-}
-
-p {
   font-family: "Montserrat", sans-serif;
+   font-family: "DM Serif Display", serif;
 }
 header{
   background-image: url("imagens/image\ 5.png");
@@ -21,7 +13,6 @@ header{
   background-position: center center;
   text-align: center;
   min-width: 100%;
-
   padding: 2vw 0 20vw 0;
   padding-inline: 0;
 }
@@ -83,11 +74,18 @@ header ul li a:hover{
   font-weight: bold;
   font-size: 0.91rem;
 }
+header section.inicio h2{
+    font-family: "BBH Bartle", sans-serif;
+}
+header section.inicio p{
+    font-family: "Montserrat", sans-serif;
+
+}
 section.conteudo1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     width: 100%;
     min-height: 100vh;
     padding: 20px;
@@ -96,43 +94,41 @@ section.conteudo1 {
     color: white;
 }
 
-/* TEXTO */
-section.conteudo1 > div:first-child {
-    width: 55%;
-}
 
+section.conteudo1 > div:first-child {
+    width: 50%;
+
+}
+section.conteudo1 div.textos{
+  margin: 0 0 0 2vw;
+}
 section.conteudo1 h2 {
-    font-family: Georgia, serif;
+    font-family: "BBH Bartle", sans-serif;
     font-size: 70px;
     line-height: 0.9;
     margin: 0;
 }
 
 section.conteudo1 h3 {
-    font-family: Georgia, serif;
+    font-family: "BBH Bartle", sans-serif;
     font-size: 35px;
     margin: 30px 0 5px;
 }
 
 section.conteudo1 p {
-    font-size: 18px;
+    font-size: 1.7em;
     line-height: 1.3;
-    margin: 0;
+    margin: 1vw 0 0 0 ;
+    padding: 0 vw 0 0 ;
+      font-family: "Montserrat", sans-serif;
+
 }
 
-/* IMAGENS */
-section.imagem {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
 
-section.imagem img {
-    width: 100%;
-    height: 190px;
-    object-fit: cover;
-    border-radius: 10px;
+section.conteudo1 div.imagem img{
+   margin: 5vw 10vw 5vw 0;
+   width: 25vw;
+   height: 25vw;
 }
 
 
@@ -141,6 +137,12 @@ section.redes h2{
   font-family: BBH Bartle;
   text-align: center;
   font-size: 3vw;
+  margin: 2vw 0 0 0;
+}
+section.redes p{
+  font-size: 1.8vw;
+  text-align: center;
+  margin: 0 5vw;
 }
 section.redes ul li div{
   background-color: black;
@@ -161,32 +163,38 @@ section.redes ul {
   text-align: center;
 }
 section.redes ul li img{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 section.redes ul li div p{
   font-size: 20px;
-}.dados {
+}
+section.conteudo2{
+  text-align: center;
+}
+section.conteudo2 h3{
+  font-family: "DM Serif Display", serif;
+}
+
+section.dados {
 background-color: #000; /* Fundo escuro */
 color: #fff; /* Texto claro */
 padding: 40px 20px;
 text-align: center; /* Centraliza o título e o parágrafo principal */
 }
 
-.dados h3 {
+section.dados h3 {
 font-size: 1.8rem;
 text-transform: uppercase;
 margin-bottom: 10px;
 }
 
-.dados > p {
+section.dados p {
 max-width: 600px;
 margin: 0 auto 30px auto;
 color: #ccc;
 }
-
-/* Container dos cards (junta os dois divs filhos) */
-.dados div {
+section.dados div {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -194,17 +202,15 @@ gap: 20px;
 max-width: 800px;
 margin: 0 auto;
 }
-
-/* Estilo individual de cada card */
-.dados div p {
-background-color: #e0e0e0; /* Fundo claro dos cards */
-color: #333; /* Texto escuro dos cards */
+section.dados div p {
+background-color: #e0e0e0;  
+color: #333;
 padding: 20px;
 border-radius: 4px;
 
-/* Cria o layout de 2 colunas */
+
 width: calc(50% - 10px);
 box-sizing: border-box;
 
-text-align: left; /* Alinha o texto dentro do card à esquerda */
+text-align: left;  
 }
