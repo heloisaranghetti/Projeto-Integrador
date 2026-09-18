@@ -28,7 +28,6 @@ header {
   background-position: center center;
   text-align: center;
   min-width: 100%;
-
   padding: 2vw 0 20vw 0;
   padding-inline: 0;
 }
@@ -89,6 +88,9 @@ header ul li a:hover {
   font-weight: bold;
   font-size: 0.91rem;
 }
+main {
+  padding: 10px 20px 10px 20px;
+}
 
 section.impactos {
   width: 100%;
@@ -98,7 +100,7 @@ section.impactos h2 {
   color: #111111;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: 900;
   padding: 0 20px 0 20px;
   margin-bottom: 20px;
@@ -108,14 +110,14 @@ section.impactos h2 span {
   color: #111111;
   text-align: center;
   text-transform: uppercase;
-  font-size: 6vw;
+  font-size: 4vw;
 }
 
 section.impactos p {
   text-align: left;
   font-size: 1.7rem;
   line-height: 1.6;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 30px 20px;
 }
 
 section.impactos div {
@@ -199,9 +201,19 @@ section.prejuízos ul li {
 
 section.prejuízos ul li p {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: left;
   padding: 10px 10px 20px 10px;
+}
+
+section.social h2 {
+  font-size: 1.5rem;
+  padding: 40px 10px 40px 10px;
+  text-align: center;
+}
+section.social ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
