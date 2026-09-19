@@ -1,0 +1,248 @@
+/*Fontes do Site*/
+h1{
+    font-family: "LINE Seed JP", sans-serif;
+}
+
+h2 {
+  font-family: "BBH Bartle", sans-serif;
+}
+
+h3{
+    font-family: "DM Serif Display", serif;
+}
+
+h4, h5{
+  font-family: "Aboreto", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+   font-family: "Montserrat", sans-serif;
+}
+
+header{
+  background-image: url("imagens/image\ 58.png");
+  background-repeat: no-repeat;
+  background-size:  100% auto;
+  background-position: center center;
+  text-align: center;
+  min-width: 100%;
+
+  padding: 2vw 0 20vw 0;
+  padding-inline: 0;
+}
+header nav{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 4px 30px 5px 10px;
+  border-radius: 40px;
+  padding: 5px 5px 2px 5px;
+}
+
+header nav img{
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+}
+
+header nav h1{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+header ul{
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul div{
+  display: flex;
+}
+
+header h2{
+  text-align: left;
+  margin: 20px ;
+  color: white;
+  font-size: 5rem;
+  margin: 6vw 20px 0px 30px;
+}
+
+header p{
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 30px;
+  padding: 0vw 0vw 7vw 0vw;
+}
+
+header ul li a{
+  font-size: 0.9rem;
+  margin: 2px 20px 2px 2px;
+}
+
+header ul li a:hover{
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+section.sobre{
+       margin: 50px 10px 30px 10px;
+       text-align: center;
+}
+
+section.sobre h3{
+  font-size: 4.5rem;
+}
+
+section.sobre p{
+   font-size: 1.5rem;
+   margin: 30px 7vw 10px 7vw;
+}
+
+section.sobre span{
+   font-weight: bold;
+}
+
+section.equipe{
+  text-align: center;
+}
+
+section.equipe h4{
+  font-size: 4.5rem;
+  margin: 7vw 20px 30px 20px;
+}
+
+section.equipe p{
+   font-size: 1.5rem;
+   margin: 10px 7vw 30px 7vw;
+}
+
+
+
+
+
+
+
+section.imagens {
+  margin: 5vw auto 50px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+section.imagens ul {
+  display: flex;
+  justify-content: center;
+  gap: 14vw; 
+  padding: 0;
+  margin: 0 0 40px 0; 
+}
+
+section.imagens ul li {
+  background-color: #EDF1FF;
+  border: 1px solid #30405B;
+  padding: 24px;
+  max-width: 450px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px; 
+}
+
+section.imagens ul li img {
+  width: 100%;
+  height: 420px; 
+  object-fit: cover; 
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+section.imagens span p {
+  font-size: 1.6rem; 
+  font-weight: bolder;
+  color: #0A182F;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+section.imagens ul li > p {
+  font-size: 1rem; 
+  color: #4a5568;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+  word-break: break-word; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.grupo{
+  text-align: center;
+  margin: 80px 40px 20px 40px;
+}
+
+section.grupo img{
+  width: 66%;
+  margin: 10px 20px 20px 20px;
+  border-radius: 15px;
+}
+
+section.grupo p{
+  margin: 6px;
+}
+
+
+footer{
+  padding: 1.8vw 20px 30px 20px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+
+footer h3{
+  font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      /* Mantém a proporção original da imagem */
+  object-fit: contain; /* Garante que a imagem não fique distorcida */
+}
