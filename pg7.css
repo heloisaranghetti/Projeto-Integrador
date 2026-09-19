@@ -42,7 +42,7 @@ header nav{
   color: white;
   margin: 4px 30px 5px 10px;
   border-radius: 40px;
-  padding: 2px 5px 2px 5px;
+  padding: 5px 5px 2px 5px;
 }
 
 header nav img{
@@ -125,22 +125,61 @@ section.equipe p{
    margin: 10px 7vw 30px 7vw;
 }
 
-section.imagens{
-  margin: 10px 40px 30px 40px;
+
+
+
+
+
+
+section.imagens {
+  margin: 5vw auto 50px auto;
+  max-width: 1000px;
+  padding: 0 20px;
 }
 
-section.imagens ul{
+section.imagens ul {
   display: flex;
   justify-content: center;
-  gap: 3vw;
+  gap: 14vw; 
+  padding: 0;
+  margin: 0 0 40px 0; 
 }
 
-section.imagens ul li{
-  background-color: #F9FAFF;
-  text-align: center;
-  padding: 2px 2px 2px 2px;
-  margin: 20px 20px 20px 20px;
+section.imagens ul li {
+  background-color: #EDF1FF;
+  border: 1px solid #30405B;
+  padding: 24px;
+  max-width: 450px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px; 
+}
 
+section.imagens ul li img {
+  width: 100%;
+  height: 420px; 
+  object-fit: cover; 
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+section.imagens span p {
+  font-size: 1.6rem; 
+  font-weight: bolder;
+  color: #0A182F;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+section.imagens ul li > p {
+  font-size: 1rem; 
+  color: #4a5568;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+  word-break: break-word; 
 }
 
 
@@ -148,9 +187,16 @@ section.imagens ul li{
 
 
 
-section.imagens ul li img{
-  width: 50%;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -166,16 +212,25 @@ section.grupo{
   margin: 80px 40px 20px 40px;
 }
 
+section.grupo img{
+  width: 66%;
+  margin: 10px 20px 20px 20px;
+  border-radius: 15px;
+}
+
+section.grupo p{
+  margin: 6px;
+}
 
 
 footer{
-  padding: 5vw 20px 30px 20px;
+  padding: 1.8vw 20px 30px 20px;
 }
 
 footer ul{
   display: flex;
   justify-content: center;
-  gap: 4vw;
+  gap: 17px;
   text-align: center;
 }
 
