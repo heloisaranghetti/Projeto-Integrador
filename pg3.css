@@ -132,7 +132,7 @@ section.impactos h3 {
 
 section.impactos div {
   width: 31%;
-  display: inline-flex;
+  display: inline-block;
   vertical-align: top;
   flex-direction: column;
   margin: 1%;
@@ -177,13 +177,13 @@ section.prejuízos {
 
 section.prejuízos h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 section.prejuízos h3 {
   color: black;
-  padding: 0 0 5px 0;
-  font-size: 2rem;
+  padding: 10px 10px 20px 10px;
+  font-size: 1.5rem;
 }
 
 section.prejuízos p {
@@ -214,6 +214,37 @@ section.social h2 {
 section.social ul {
   display: flex;
   justify-content: space-between;
+}
+section.social ul li {
+  display: block;
+  background-color: #000000;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+  display: inline-flex;
+  flex-direction: column;
+  width: 31%;
+  margin: 1%;
+  border: 3px solid #000000;
+  padding: 15px;
+  min-height: 430px;
+}
+section.social h3 {
+  color: #ffffff;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+section.social p {
+  color: #ffffff;
+  margin-top: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+section.social ul li img {
+  padding: 20px 20px 30px 20px;
+  border: 20px 20px 30px 20px solid white;
 }
 
 footer {
