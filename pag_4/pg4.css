@@ -1,0 +1,178 @@
+html{
+    font-family: "LINE Seed JP", sans-serif;
+    font-family: "BBH Bartle", sans-serif;
+    font-family: "DM Serif Display", serif;
+    font-family: "Aboreto", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif
+}
+
+header{
+  background-image: url(image\ 47.png);
+  background-repeat: no-repeat;
+  background-size:  100% auto;
+  background-position: center center;
+  text-align: center;
+  min-width: 100%;
+
+  padding: 2vw 0 20vw 0;
+  padding-inline: 0;
+}
+header nav{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 4px 30px 5px 10px;
+  border-radius: 40px;
+  padding: 2px 5px 2px 5px;
+}
+
+header nav img{
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+}
+
+header nav h1{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+header ul{
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul div{
+  display: flex;
+}
+
+header h2{
+  text-align: left;
+  margin: 20px ;
+  color: white;
+  font-size: 5rem;
+  margin: 6vw 20px 0px 30px;
+   font-family: "BBH Bartle", sans-serif;
+}
+
+header p{
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 30px;
+  padding: 0vw 0vw 7vw 0vw;
+}
+
+header ul li a{
+  font-size: 0.9rem;
+  margin: 2px 20px 2px 2px;
+}
+
+header ul li a:hover{
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+section.meio{
+    background-color: white;
+    text-align: center;
+    padding: 4vw ;
+}
+section.meio h2{
+    font-family: "DM Serif Display", serif;
+    padding: 0 0 15px 0 ;
+    font-size: 5vw;
+}
+section.meio p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+section.meioDois{
+    text-align: center;
+    background-color: #090231;
+    padding: 10vw;
+
+}
+section.meioDois p{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+section.meioDois h2{
+    font-family: "BBH Bartle", sans-serif;
+    padding: 0 0 15px 0 ;
+    font-size: 4vw;
+    font-weight: bold;
+    color: white;
+}
+/* Texto do Label */
+section.meioDois form label {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 6px; 
+  padding: 20px;/* Espacamento leve antes do input */
+}
+
+/* Caixa de entrada (Input de Idade) */
+section.meioDois form input[type="number"] {
+  background-color: transparent; /* Fundo transparente */
+  border: 1px solid #ffffff;     /* Borda fina branca */
+  padding: 8px 12px;            /* Espaço interno */
+  color: #ffffff;                /* Cor do texto digitado */
+  font-size: 14px;
+  outline: none;                 /* Remove a borda azul/preta nativa ao clicar */
+  width: 100%;                   /* Ajusta a largura */
+  max-width: 300px;              /* Limite de largura */
+  box-sizing: border-box;
+}
+
+/* Esconde as setinhas padrão do input do tipo number */
+section.meioDois form input[type="number"]::-webkit-outer-spin-button,
+section.meioDois form input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Texto do Placeholder (Digite sua idade...) */
+section.meioDois form input[type="number"]::placeholder {
+  color: #a0aab8;
+}
+
+/* Estilo do botão Enviar */
+section.meioDois form input[type="button"] {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+section.meioDois ul{
+  padding: 15px 0 0 0;
+  display: flex;
+  gap: 10vw;
+  text-align: center;
+}
+section.meioDois ul li{
+   margin: 5px; 
+   background-color: #ffffff;
+   padding: 10px 10px 5vw 10px;
+}
+footer{
+  text-align: center;
+  padding: 5vw;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0 0 10px 0;
+}
