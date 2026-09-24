@@ -204,14 +204,10 @@ section.conteudo2 p {
   font-size: 1.44rem;
 }
 
-section.dados {
+section.dados{
 background-color: #000; 
 color: #fff; 
-padding: 40px 20px;
-text-align: center;  
-display: flex;
-
- 
+padding: 60px 40px;
 }
 
 section.dados h3 {
@@ -228,26 +224,30 @@ color: #ccc;
 font-size: 1.25rem;
 text-align: center;
 }
-section.dados div {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+section.dados ul{
 gap: 20px;
-max-width: 800px;
 margin: 0 auto;
+display: flex;
 }
-section.dados div p {
+
+section.dados ul li p {
 background-color: #e0e0e0;  
 color: #333;
-padding: 20px;
+padding: 20px 10px;
 border-radius: 4px;
-
+text-align: center;
 
 width: calc(50% - 10px);
 box-sizing: border-box;
 
-text-align: left;  
+
 }
+
+
+
+
+
+
 footer{
   padding: 5vw 20px 30px 20px;
 }
