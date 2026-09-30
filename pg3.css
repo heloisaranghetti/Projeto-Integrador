@@ -285,6 +285,7 @@ footer p {
 footer a {
   color: #050505;
   text-decoration: none;
+  font-family:"Aboreto", sans-serif;
 }
 
 footer a:hover {
