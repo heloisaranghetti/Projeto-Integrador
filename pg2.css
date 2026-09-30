@@ -1,7 +1,15 @@
-header{
+html {
+  font-family: "LINE Seed JP", sans-serif;
+  font-family: "BBH Bartle", sans-serif;
+  font-family: "Aboreto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "DM Serif Display", serif;
+}
+
+header {
   background-image: url("imagens/pagina2-banner.png");
   background-repeat: no-repeat;
-  background-size:  100% auto;
+  background-size: 100% auto;
   background-position: center center;
   text-align: center;
   min-width: 100%;
@@ -9,7 +17,7 @@ header{
   padding-inline: 0;
 }
 
-header nav{
+header nav {
   background-color: black;
   display: flex;
   align-items: center;
@@ -18,39 +26,43 @@ header nav{
   margin: 4px 30px 5px 10px;
   border-radius: 40px;
   padding: 2px 5px 2px 5px;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-header nav img{
-  margin: 10px 5px 0px 10px;
+header nav img {
+  margin: 0px 5px 0px 30px;
   width: 50px;
+
 }
 
-header nav h1{
-margin: 15px 15px 15px 1px;
+header nav h1 {
+  display: flex;
+  align-items: center;
   font-size: 1.3rem;
 }
-header ul{
+
+header ul {
+
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
   gap: 10px;
 }
 
-
-header nav ul li{
+header ul div {
   display: flex;
 }
 
-header h2{
+header h2 {
   text-align: left;
-  margin: 20px ;
+  margin: 20px;
   color: white;
   font-size: 5rem;
   margin: 6vw 20px 0px 30px;
+  font-family: "BBH Bartle", sans-serif;
 }
 
-header p{
+header p {
   text-align: left;
   color: white;
   font-size: 2rem;
@@ -58,8 +70,100 @@ header p{
   padding: 0vw 0vw 7vw 0vw;
 }
 
-header ul li a{
+header ul li a {
   font-size: 0.9rem;
   margin: 2px 20px 2px 2px;
 }
 
+header ul li a:hover {
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+header section.inicio h2 {
+  font-family: "BBH Bartle", sans-serif;
+}
+
+header section.inicio p {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+section.impactos {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 200px;
+}
+
+section.impactos h2 {
+  font-family: "BBH Bartle", sans-serif;
+  padding: 20px 20px 5px 20px;
+  font-size: 4vw;
+}
+
+section.impactos p {
+  padding: 0px 20px 20px 20px;
+  font-size: 25px;
+  max-width: 600px;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.impactos h3 {
+  font-size: 20px;
+  font-family: "BBH Bartle", sans-serif;
+  padding: 0px 20px 15px 20px;
+
+}
+
+section.impactos h3 {
+  font-size: 15px;
+  font-family: "BBH Bartle", sans-serif;
+  padding: 0px 20px 15px 20px;
+
+}
+
+section.impactos ul {
+  padding: 20px 20px 20px 8vw;
+}
+
+section.impactos ul li img {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 20px;
+  width: 18vw;
+  height: 10vw;
+}
+
+section.excesso {
+  background-color: black;
+  padding: 20px;
+}
+
+section.excesso p {
+  background-color: white;
+  padding: 25px;
+  font-size: 20px;
+}
+
+section.consequências {
+  color: white;
+  background-color: black;
+}
+
+section.consequências h2 {
+  font-family: "BBH Bartle", sans-serif;
+  padding: 20px 20px 5px 20px;
+  font-size: 2vw;
+}
+
+section.consequências p {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 25px;
+}
