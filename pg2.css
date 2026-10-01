@@ -1,0 +1,197 @@
+html {
+  font-family: "LINE Seed JP", sans-serif;
+  font-family: "BBH Bartle", sans-serif;
+  font-family: "Aboreto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "DM Serif Display", serif;
+}
+
+header {
+  background-image: url("imagens/pagina2-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  text-align: center;
+  min-width: 100%;
+  padding: 2vw 0 20vw 0;
+  padding-inline: 0;
+}
+
+header nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 4px 30px 5px 10px;
+  border-radius: 40px;
+  padding: 2px 5px 2px 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header nav img {
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+
+}
+
+header nav h1 {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+header ul {
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul div {
+  display: flex;
+}
+
+header h2 {
+  text-align: left;
+  margin: 20px;
+  color: white;
+  font-size: 5rem;
+  margin: 6vw 20px 0px 30px;
+  font-family: "BBH Bartle", sans-serif;
+}
+
+header p {
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 30px;
+  padding: 0vw 0vw 7vw 0vw;
+}
+
+header ul li a {
+  font-size: 0.9rem;
+  margin: 2px 20px 2px 2px;
+}
+
+header ul li a:hover {
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+header section.inicio h2 {
+  font-family: "BBH Bartle", sans-serif;
+}
+
+header section.inicio p {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+section.impactos {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 200px;
+  padding: 35px;
+}
+
+section.impactos h2 {
+  font-family: "BBH Bartle", sans-serif;
+  padding: 20px 20px 5px 20px;
+  font-size: 4vw;
+}
+
+section.impactos p {
+  padding: 0px 20px 20px 20px;
+  font-size: 32px;
+  max-width: 600px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+section.impactos h3 {
+  font-size: 25px;
+  font-family: "BBH Bartle", sans-serif;
+  padding: 0px 20px 15px 20px;
+
+}
+
+section.impactos ul {
+  padding: 20px 20px 20px 8vw;
+}
+
+section.impactos ul li img {
+  display: block;
+  background-color: white;
+  padding: 20px;
+  width: 23vw;
+  height: 17vw;
+}
+
+section.excesso {
+  background-color: black;
+  padding: 4vw;
+}
+
+section.excesso p {
+  background-color: white;
+  padding: 25px 35px 25px 35px;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.consequências {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 8vw;
+  padding: 0px 0px 35px 0px;
+}
+
+section.consequências h2 {
+  font-family: "BBH Bartle", sans-serif;
+  padding: 20px 20px 5px 20px;
+  font-size: 2vw;
+}
+
+section.consequências p {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 28px;
+  max-width: 600px;
+}
+section.consequências ul li img{
+  background-color: white;
+  padding: 20px;
+  width: 18vw;
+  height: 12vw;
+  display: block;
+}
+footer{
+  padding: 5vw 20px 30px 20px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+
+footer h3{
+  font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      
+  object-fit: contain; 
+}
