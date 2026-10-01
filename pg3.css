@@ -100,17 +100,20 @@ section.impactos h2 {
   color: #111111;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2vw;
-  font-weight: 900;
-  padding: 0 20px 0 20px;
+  font-size: 2.3vw;
+  padding: 0 20px 20px 20px;
   margin-bottom: 20px;
   padding-inline: 0;
+  font-family: "DM Serif Display", serif;
+   font-weight: bold;
 }
+
 section.impactos h2 span {
   color: #111111;
   text-align: center;
   text-transform: uppercase;
   font-size: 4vw;
+  font-family: "Aboreto", sans-serif;
 }
 
 section.impactos p {
@@ -177,7 +180,8 @@ section.prejuízos {
 
 section.prejuízos h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-family: "Aboreto", sans-serif;
 }
 
 section.prejuízos h3 {
@@ -207,9 +211,11 @@ section.prejuízos ul li p {
 }
 
 section.social h2 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   padding: 40px 10px 40px 10px;
   text-align: center;
+  font-family: "Aboreto", sans-serif;
+  font-weight: bold;
 }
 section.social ul {
   display: flex;
