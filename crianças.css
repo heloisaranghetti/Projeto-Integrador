@@ -58,3 +58,7 @@ footer ul {
   gap: 15px;
   padding: 0 0 10px 0;
 }
+
+footer p{
+    font-family: "Aboreto", sans-serif;
+}
