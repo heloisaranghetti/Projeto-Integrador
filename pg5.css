@@ -111,6 +111,7 @@ main {
     column-gap: 35px;
 
     align-items: start;
+
 }
 
 
@@ -133,14 +134,13 @@ main > section:first-child h1 {
 
     margin: 0 auto 20px;
 
-    font-family: 'Orbitron', Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 
     font-size: 38px;
     font-weight: 900;
 
     line-height: 1.15;
 
-    text-transform: uppercase;
 }
 
 main > section:first-child p {
@@ -163,17 +163,18 @@ main > section:first-child p {
 main > section:nth-child(2),
 main > section:nth-child(3) {
 
-    width: 100%;
 
     min-height: 410px;
 
-    padding: 25px 30px;
+    padding: 25px 30px 25px 30px;
 
     background: #050505;
 
     color: white;
 
     text-align: center;
+
+    margin-inline: 20px; /* Cria a margem nas laterais sem quebrar a tela */
 }
 
 
@@ -215,6 +216,7 @@ main > section:nth-child(4) {
     color: white;
 
     text-align: center;
+
 }
 
 
@@ -341,6 +343,7 @@ main > section:nth-child(5) article {
     color: #555;
 
     text-align: center;
+
 }
 
 
@@ -394,6 +397,8 @@ main > section:nth-child(5) article p {
     font-size: 14px;
 
     line-height: 1.5;
+
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -412,6 +417,8 @@ main > section:nth-child(5) article ul {
     font-size: 14px;
 
     line-height: 1.8;
+
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -419,46 +426,37 @@ main > section:nth-child(5) article ul {
    FOOTER
 ========================= */
 
-footer {
-
-    padding: 30px;
-
-    background: white;
-
-    text-align: center;
+footer{
+  padding: 60px
 }
 
-footer ul {
-
-    display: flex;
-
-    justify-content: center;
-
-    gap: 20px;
-
-    list-style: none;
-
-    margin-bottom: 15px;
-}
-
-footer ul li img {
-
-    width: 32px;
-    height: 32px;
-
-    object-fit: contain;
-}
-
-footer p a {
-
-    color: #555;
-
-    font-size: 13px;
-
-    text-decoration: none;
-
-    text-transform: uppercase;
-    font-family: "Aboreto", sans-serif;
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
 }
 
 
+footer p{
+  font-size: 0.7rem;
+  font-family: "Aboreto", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+footer p a:hover{
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      
+  object-fit: contain; 
+}
+
+footer ul li a img:hover{
+  width: 35px;        
+}
