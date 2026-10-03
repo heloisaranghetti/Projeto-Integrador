@@ -12,49 +12,88 @@ header h1{
     padding: 15px 0 15px 0;
     font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
+
+header a{
+    margin: 2px 2px 2px 2px;
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+header h1{
+    margin: 20px 80px 20px 80px;
+}
+
+main{
+    margin: 20px 80px 20px 80px;
+}
+
 section.adolas p{
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: "Montserrat", sans-serif;
 }
 section.participar h2 {
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 15px 0 20px 0;
-    font-family: "DM Serif Display", serif;
-    
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 section.participar p{
     font-size: 20px;
     padding: 0 0 20px 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: "Montserrat", sans-serif;
 }
 section.Equilibrio h2 {
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 15px 0 20px 0;
-    font-family: "DM Serif Display", serif;
+     font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 section.Equilibrio p {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 0 0 20px 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: "Montserrat", sans-serif;
 }
 section.Equilibrio ul li{
     padding: 0 0 15px 15px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: "Montserrat", sans-serif;
+     font-size: 1.25rem;
 }
 section.Equilibrio span{
     font-weight: bold;
 }
 footer{
-  text-align: center;
-  padding: 5vw;
-}
-footer ul {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  padding: 0 0 10px 0;
+  padding: 60px
 }
 
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+
 footer p{
-    font-family: "Aboreto", sans-serif;
+  font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+  color: black;
+}
+
+footer p a:hover{
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      
+  object-fit: contain; 
+}
+
+footer ul li a img:hover{
+  width: 35px;        
 }
