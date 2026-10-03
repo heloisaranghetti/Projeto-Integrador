@@ -94,16 +94,18 @@ header ul li a:hover{
 }
 
 section.sobre{
-       margin: 50px 10px 30px 10px;
+       margin: 60px;
        text-align: center;
 }
 
 section.sobre h3{
-  font-size: 4.5rem;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 section.sobre p{
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    margin: 30px 7vw 10px 7vw;
 }
 
@@ -113,15 +115,16 @@ section.sobre span{
 
 section.equipe{
   text-align: center;
+  margin: 60px;
 }
 
 section.equipe h4{
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin: 7vw 20px 30px 20px;
 }
 
 section.equipe p{
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    margin: 10px 7vw 30px 7vw;
 }
 
@@ -183,30 +186,6 @@ section.imagens ul li > p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section.grupo{
   text-align: center;
   margin: 80px 40px 20px 40px;
@@ -222,9 +201,8 @@ section.grupo p{
   margin: 6px;
 }
 
-
 footer{
-  padding: 1.8vw 20px 30px 20px;
+  padding: 60px
 }
 
 footer ul{
@@ -239,6 +217,23 @@ footer h3{
   font-size: 0.7rem;
   font-family: Aboreto;
   text-align: center;
+  color: black;
+}
+
+footer h3 a:hover{
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      
+  object-fit: contain; 
+}
+
+footer ul li a img:hover{
+  width: 35px;        
 }
 
 footer ul li a img{
