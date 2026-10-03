@@ -6,18 +6,22 @@ html {
   font-family: "DM Serif Display", serif;
 }
 
-header {
+* {
+  box-sizing: border-box;
+}
+
+header{
   background-image: url("imagens/pagina2-banner.png");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size:  100% auto;
   background-position: center center;
   text-align: center;
   min-width: 100%;
+
   padding: 2vw 0 20vw 0;
   padding-inline: 0;
 }
-
-header nav {
+header nav{
   background-color: black;
   display: flex;
   align-items: center;
@@ -25,23 +29,20 @@ header nav {
   color: white;
   margin: 4px 30px 5px 10px;
   border-radius: 40px;
-  padding: 2px 5px 2px 5px;
-  font-family: "Montserrat", sans-serif;
+  padding: 5px 5px 2px 5px;
 }
 
-header nav img {
+header nav img{
   margin: 0px 5px 0px 30px;
   width: 50px;
-
 }
 
-header nav h1 {
+header nav h1{
   display: flex;
   align-items: center;
   font-size: 1.3rem;
 }
-
-header ul {
+header ul{
 
   display: flex;
   justify-content: space-between;
@@ -49,45 +50,38 @@ header ul {
   gap: 10px;
 }
 
-header ul div {
+header ul div{
   display: flex;
 }
 
-header h2 {
+header h2{
   text-align: left;
-  margin: 20px;
+  margin: 20px ;
   color: white;
   font-size: 5rem;
   margin: 6vw 20px 0px 30px;
-  font-family: "BBH Bartle", sans-serif;
+   font-family: "BBH Bartle", sans-serif;
 }
 
-header p {
+header p{
   text-align: left;
   color: white;
   font-size: 2rem;
   margin: 0px 0px 0px 30px;
   padding: 0vw 0vw 7vw 0vw;
+  font-family: "Montserrat", sans-serif;
 }
 
-header ul li a {
+header ul li a{
   font-size: 0.9rem;
   margin: 2px 20px 2px 2px;
 }
 
-header ul li a:hover {
+header ul li a:hover{
   font-weight: bold;
   font-size: 0.91rem;
 }
 
-header section.inicio h2 {
-  font-family: "BBH Bartle", sans-serif;
-}
-
-header section.inicio p {
-  font-family: "Montserrat", sans-serif;
-
-}
 
 section.impactos {
   background-color: black;
@@ -95,33 +89,51 @@ section.impactos {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 200px;
-  padding: 35px;
+  gap: 6vw;
+  padding: 60px;
+
+  text-align: left ;
 }
 
 section.impactos h2 {
   font-family: "BBH Bartle", sans-serif;
   padding: 20px 20px 5px 20px;
   font-size: 4vw;
+  
+}
+
+section.impactos h2, 
+section.impactos h3, 
+section.impactos p{
+  text-align: left;        /* Garante alinhamento do texto à esquerda */
+  margin-left: 0;          /* Remove qualquer recuo ou margem à esquerda */
+  padding-left: 0;    
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;                  /* Ocupa a largura toda para alinhar o texto dentro */
+  text-align: left !important;     /* Remove espaçamentos internos à esquerda */
 }
 
 section.impactos p {
-  padding: 0px 20px 20px 20px;
-  font-size: 32px;
+  padding: 20px 20px 20px 20px;
+  font-size: 1.40rem;
   max-width: 600px;
   font-family: "Montserrat", sans-serif;
+  margin: 30px;
 }
 
 
 section.impactos h3 {
-  font-size: 25px;
-  font-family: "BBH Bartle", sans-serif;
+  font-size: 2.1rem;
+  font-family: "Montserrat", sans-serif;
   padding: 0px 20px 15px 20px;
+  font-weight: bold;
 
 }
 
 section.impactos ul {
   padding: 20px 20px 20px 8vw;
+  margin-top: 30px; /* Ajuste esse valor em pixels para descer mais ou menos */
 }
 
 section.impactos ul li img {
@@ -132,19 +144,8 @@ section.impactos ul li img {
   height: 17vw;
 }
 
-section.excesso {
-  background-color: black;
-  padding: 4vw;
-}
 
-section.excesso p {
-  background-color: white;
-  padding: 25px 35px 25px 35px;
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-}
-
-section.consequências {
+section.consequencias {
   background-color: black;
   color: white;
   display: flex;
@@ -153,27 +154,45 @@ section.consequências {
   padding: 0px 0px 35px 0px;
 }
 
-section.consequências h2 {
-  font-family: "DM Serif Display", serif;
+section.consequencias h2 {
+  font-family: "Montserrat", sans-serif;
   padding: 20px 20px 5px 20px;
   font-size: 4vw;
+  font-weight: bold;
 }
 
-section.consequências p {
+section.consequencias p {
   font-family: "Montserrat", sans-serif;
   padding: 20px;
-  font-size: 28px;
+  font-size: 1.25rem;
   max-width: 600px;
 }
-section.consequências ul li img{
+
+section.consequencias h2, 
+section.consequencias p{
+   text-align: left;        
+  margin-left: 0;         
+  padding-left: 0;    
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;                 
+  text-align: left !important;    
+}
+
+section.consequencias ul{
+  margin-top: 60px; /* Ajuste esse valor em pixels para descer mais ou menos */
+}
+
+section.consequencias ul li img{
   background-color: white;
   padding: 20px;
   width: 18vw;
   height: 12vw;
   display: block;
 }
+
 footer{
-  padding: 5vw 20px 30px 20px;
+  padding: 60px
 }
 
 footer ul{
@@ -184,10 +203,17 @@ footer ul{
 }
 
 
-footer h3{
+footer p{
   font-size: 0.7rem;
   font-family: Aboreto;
   text-align: center;
+  color: black;
+}
+
+footer p:hover{
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
 }
 
 footer ul li a img{
@@ -195,3 +221,25 @@ footer ul li a img{
   height: auto;      
   object-fit: contain; 
 }
+
+footer ul li a img:hover{
+  width: 35px;        
+}
+
+
+/* Reset total do link voltar ao topo */
+footer p {
+  all: unset !important;
+  display: block !important;
+  text-align: center !important;
+  margin: 0 !important;
+}
+
+footer p a {
+  font-size: 0.7rem !important;
+  font-family: Aboreto, sans-serif !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+/* o "p" não queria centralizar"
