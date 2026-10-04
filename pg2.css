@@ -97,10 +97,10 @@ section.impactos {
 }
 
 section.impactos h2 {
-  font-family: "BBH Bartle", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 20px 20px 5px 20px;
   font-size: 4vw;
-  
+  font-weight: bolder;
 }
 
 section.impactos h2, 
