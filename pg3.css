@@ -273,14 +273,14 @@ footer ul{
 }
 
 
-footer p{
+footer h3{
   font-size: 0.7rem;
-  font-family: Aboreto;
+  font-family: "Aboreto", sans-serif;
   text-align: center;
   color: black;
 }
 
-footer p a:hover{
+footer h3 a:hover{
   color: #333;
   font-style: bold;
   font-size: 0.76rem;
