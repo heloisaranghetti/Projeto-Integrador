@@ -121,6 +121,8 @@ section.equipe{
 section.equipe h4{
   font-size: 4rem;
   margin: 7vw 20px 30px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 section.equipe p{
