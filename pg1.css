@@ -112,10 +112,11 @@ section.conteudo1 div.textos {
 }
 
 section.conteudo1 h2 {
-  font-family: "BBH Bartle", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   line-height: 0.9;
   margin: 0;
+  font-weight: bolder;
 }
 
 section.conteudo1 h3 {
@@ -145,10 +146,11 @@ section.redes {
 }
 
 section.redes h2 {
-  font-family: BBH Bartle;
+ font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 3vw;
   margin: 4vw 2vw 2.5vw 2vw;
+  font-weight: bold;
 }
 
 section.redes p {
