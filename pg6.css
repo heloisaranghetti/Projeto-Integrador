@@ -27,6 +27,265 @@ html{
   background-color: #000000;
 }
 
+
+
+
+
+header{
+  text-align: center;
+  padding: 2vw 0 20vw 0;
+ 
+}
+header nav{
+  background-color: rgb(17, 25, 49);
+  align-items: center;
+
+  color: white;
+}
+
+header nav img{
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+  text-align: center;
+}
+
+header nav h1{
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+header h2{
+  text-align: left;
+  margin: 20px ;
+  color: white;
+  font-size: 1rem;
+  margin: 6vw 20px 0px 30px;
+}
+
+header p{
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 30px;
+  padding: 0vw 0vw 7vw 0vw;
+}
+
+header ul li a{
+  font-size: 0.9rem;
+  margin: 2px 20px 2px 2px;
+}
+
+header ul li a:hover{
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+
+
+
+
+
+
+
+
+section.videos {
+  width: 100%;
+  background-color: #000000;
+  padding: 60px 20px;
+}
+
+section.videos h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 20px 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+section.videos p {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  margin: 20px 5vw 60px 5vw;
+}
+
+
+section.videos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1400px;
+  flex-direction: column;
+  
+}
+
+
+section.videos ul li {
+  background-color: #ffffff; 
+  border-radius: 5px;       
+  padding: 40px;             
+  align-items: center;
+  gap: 40px;
+  box-sizing: border-box;
+  margin: 0 0 40px 0;
+}
+
+section.videos ul li iframe,
+section.videos ul li p {
+  flex: 1 1 50%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+section.videos ul li iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: none;
+}
+
+
+section.videos ul li p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #222222;
+  margin: 2px 2px 2px 2px;
+  text-align: left;
+}
+
+
+section.documentario{
+  text-align: center;
+  background-color: black;
+  margin: 10px 10px 10px 10px;
+}
+
+section.documentario div{
+  background-color: white;
+  margin: 10px 10px 60px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid gray;
+  border-radius: 15px;
+}
+
+section.documentario h3{
+  font-size: 1.8rem;
+  margin: 30px 10px 0 7px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+section.documentario p{
+  font-size: 0.9rem;
+  margin: 10px 7px 30px 7px;
+  padding: 7px;
+  text-align: left;
+}
+
+section.documentario span{
+  font-weight: bolder;
+}
+
+section.documentario iframe{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: none;
+}
+
+
+
+
+footer{
+  padding: 60px;
+  background-color: white;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+
+footer h3{
+  font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+  color: black;
+}
+
+footer h3 a:hover{
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      
+  object-fit: contain; 
+}
+
+footer ul li a img:hover{
+  width: 35px;        
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      /* Mantém a proporção original da imagem */
+  object-fit: contain; /* Garante que a imagem não fique distorcida */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 1400px) {
+
 header{
   background-image: url("imagens/image\ 23.png");
   background-repeat: no-repeat;
@@ -217,9 +476,13 @@ section.documentario iframe{
 
 
 
+
+
+
+  
+
 footer{
-  padding: 60px;
-  background-color: white;
+  padding: 60px
 }
 
 footer ul{
@@ -257,4 +520,5 @@ footer ul li a img{
   width: 30px;       
   height: auto;      /* Mantém a proporção original da imagem */
   object-fit: contain; /* Garante que a imagem não fique distorcida */
+}
 }
