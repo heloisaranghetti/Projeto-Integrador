@@ -20,83 +20,6 @@ p {
 a {
   font-family: "Montserrat", sans-serif;
 }
-
-header {
-  background-image: url("imagens/pag3-foto1.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center center;
-  text-align: center;
-  min-width: 100%;
-  padding: 2vw 0 20vw 0;
-  padding-inline: 0;
-}
-header nav {
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  margin: 4px 30px 5px 10px;
-  border-radius: 40px;
-  padding: 2px 5px 2px 5px;
-}
-
-header nav img {
-  margin: 0px 5px 0px 30px;
-  width: 50px;
-}
-
-header nav h1 {
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-}
-header ul {
-  display: flex;
-  justify-content: space-between;
-  border-radius: 10px;
-  gap: 10px;
-}
-
-header ul div {
-  display: flex;
-}
-
-header h2 {
-  text-align: left;
-  margin: 20px;
-  color: white;
-  font-size: 5rem;
-  margin: 6vw 20px 0px 30px;
-}
-
-header p {
-  text-align: left;
-  color: white;
-  font-size: 2rem;
-  margin: 0px 0px 0px 30px;
-  padding: 0vw 0vw 7vw 0vw;
-}
-
-header ul li a {
-  font-size: 0.9rem;
-  margin: 2px 20px 2px 2px;
-}
-
-header ul li a:hover {
-  font-weight: bold;
-  font-size: 0.91rem;
-}
-main {
-  padding: 10px 20px 10px 20px;
-}
-
-section.impactos {
-
-  margin: 80px;
-}
-
 section.impactos h2 {
   color: #111111;
   text-align: center;
@@ -104,15 +27,15 @@ section.impactos h2 {
   padding: 0 20px 20px 20px;
   margin-bottom: 10px;
   padding-inline: 0;
- font-family: "Montserrat", sans-serif;
-   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 section.impactos h2 span {
   color: #111111;
   text-align: center;
   font-size: 4vw;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 section.impactos p {
@@ -130,13 +53,14 @@ section.impactos h3 {
   padding: 20px 0 20px 0;
   font-size: 2.5rem;
   text-align: center;
-   font-family: "Montserrat", sans-serif;
-   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 section.impactos div {
+  text-align: center;
   width: 31%;
-  display: inline-block;
+  display: flex;
   vertical-align: top;
   flex-direction: column;
   margin: 1%;
@@ -181,16 +105,16 @@ section.prejuízos {
 section.prejuízos h2 {
   text-align: center;
   font-size: 3rem;
-   font-family: "Montserrat", sans-serif;
-   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 section.prejuízos h3 {
   color: black;
   padding: 10px 10px 20px 10px;
   font-size: 1.5rem;
-   font-family: "Montserrat", sans-serif;
-   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 section.prejuízos p {
@@ -212,31 +136,31 @@ section.prejuízos ul li p {
   text-align: left;
   padding: 10px 10px 20px 10px;
 }
-
-section.social{
-  padding: 60px;
+section.prejuízos div {
+  justify-content: space-between;
+}
+section.prejuízos div img {
+  width: 100%;
 }
 
+section.social {
+  text-align: center;
+}
 section.social h2 {
   font-size: 3rem;
   padding: 40px 10px 40px 10px;
   text-align: center;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
-section.social ul {
-  display: flex;
-  justify-content: space-between;
-}
 section.social ul li {
+  text-align: center;
   display: block;
   background-color: #000000;
-  justify-content: space-between;
   margin: 20px 0 20px 0;
-  display: inline-flex;
   flex-direction: column;
-  width: 31%;
-  margin: 1%;
+  display: inline-flex;
+  width: 100%;
   border: 3px solid #000000;
   padding: 15px;
   min-height: 430px;
@@ -245,10 +169,11 @@ section.social h3 {
   color: #ffffff;
   padding: 20px 0 20px 0;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 section.social p {
+  font-size: 1.8rem;
   color: #ffffff;
   margin-top: 10px;
   text-align: justify;
@@ -256,48 +181,50 @@ section.social p {
 }
 
 section.social ul li img {
-  padding: 20px 20px 30px 20px;
-  border: 20px 20px 30px 20px solid white;
+  padding: 10px 10px 20px 10px;
+  border: 10px 10px 20px 10px solid white;
 }
 
-footer{
+footer {
   padding: 60px;
   background-color: white;
 }
 
-footer ul{
+footer ul {
   display: flex;
   justify-content: center;
   gap: 17px;
   text-align: center;
 }
 
-
-footer h3{
+footer h3 {
   font-size: 0.7rem;
   font-family: "Aboreto", sans-serif;
   text-align: center;
   color: black;
 }
 
-footer h3 a:hover{
+footer h3 a:hover {
   color: #333;
   font-style: bold;
   font-size: 0.76rem;
 }
 
-footer ul li a img{
-  width: 30px;       
-  height: auto;      
-  object-fit: contain; 
+footer ul li a img {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
 }
 
-footer ul li a img:hover{
-  width: 35px;        
+footer ul li a img:hover {
+  width: 35px;
 }
 
-footer ul li a img{
-  width: 30px;       
-  height: auto;      /* Mantém a proporção original da imagem */
+footer ul li a img {
+  width: 30px;
+  height: auto; /* Mantém a proporção original da imagem */
   object-fit: contain; /* Garante que a imagem não fique distorcida */
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 800px) {
 }
