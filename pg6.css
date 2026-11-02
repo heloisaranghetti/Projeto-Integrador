@@ -1,0 +1,330 @@
+/*CSS Heloisa*/
+
+html {
+  background-color: #000000;
+}
+
+header {
+  text-align: center;
+}
+
+header nav {
+  background-color: rgb(17, 25, 49);
+  align-items: center;
+
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header nav h1 {
+  display: none;
+}
+
+header h2 {
+  text-align: left;
+  margin: 20px;
+  color: white;
+  font-size: 1.9rem;
+  margin: 7vw 20px 0px 30px;
+  font-family: "BBH Bartle", sans-serif;
+}
+
+header p {
+  text-align: left;
+  color: white;
+  font-size: 0.9rem;
+  margin: 0px 0px 0px 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header nav ul li {
+  font-size: 0.9rem;
+  padding: 15px;
+}
+
+header nav ul li a:hover {
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+section.videos p span {
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.videos {
+  width: 100%;
+  background-color: #000000;
+  padding: 60px 20px;
+}
+
+section.videos h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 20px 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+section.videos p {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  margin: 20px 5vw 60px 5vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.videos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1400px;
+  flex-direction: column;
+
+}
+
+section.videos ul li {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 40px;
+  align-items: center;
+  gap: 40px;
+  box-sizing: border-box;
+  margin: 0 0 40px 0;
+}
+
+section.videos ul li iframe,
+section.videos ul li p {
+  flex: 1 1 50%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+section.videos ul li iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: none;
+}
+
+section.videos ul li p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #222222;
+  margin: 2px 2px 2px 2px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.documentario {
+  text-align: center;
+  background-color: black;
+  margin: 10px 10px 10px 10px;
+}
+
+section.documentario div {
+  background-color: white;
+  margin: 10px 10px 60px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid gray;
+  border-radius: 15px;
+}
+
+section.documentario h3 {
+  font-size: 1.8rem;
+  margin: 30px 10px 0 7px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+section.documentario p {
+  font-size: 0.9rem;
+  margin: 10px 7px 30px 7px;
+  padding: 7px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.documentario span {
+  font-weight: bolder;
+}
+
+section.documentario iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: none;
+}
+
+footer {
+  padding: 60px;
+  background-color: white;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+footer a {
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+footer a:hover {
+  font-weight: bold;
+  font-size: 0.76rem;
+}
+
+footer p {
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  margin: 20px 0 0 0;
+}
+
+footer ul li a img {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+}
+
+footer ul li a img:hover {
+  width: 35px;
+}
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 1400px) {
+
+  header {
+    background-image: url("imagens/image\ 23.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    min-width: 100%;
+    padding: 2vw 0 20vw 0;
+    padding-inline: 0;
+  }
+
+  header nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 30px 5px 10px;
+    border-radius: 40px;
+    padding: 5px 5px 2px 5px;
+  }
+
+  header nav img {
+    margin: 0px 5px 0px 30px;
+    width: 50px;
+  }
+
+  header nav h1 {
+    font-size: 1.3rem;
+    display: initial;
+    display: flex;
+    align-items: center;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 10px;
+  }
+
+  header ul div {
+    display: flex;
+  }
+
+  header h2 {
+    font-size: 5rem;
+    margin: 6vw 20px 0px 30px;
+  }
+
+  header p {
+    font-size: 2rem;
+    padding: 0vw 0vw 7vw 0vw;
+  }
+
+  header ul li a {
+    font-size: 0.9rem;
+    margin: 2px 20px 2px 2px;
+  }
+
+  section.videos h3 {
+    font-size: 3rem;
+    margin: 20px 0 40px 0;
+  }
+
+  section.videos p {
+    font-size: 1.25rem;
+    margin: 20px 10vw 60px 10vw;
+  }
+
+  section.videos p span{
+    font-size: 2rem;
+  }
+
+  section.videos ul {
+    display: flex;
+    gap: 40px;
+  }
+
+  section.videos ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section.videos ul li iframe,
+  section.videos ul li p {
+    max-width: 50%;
+  }
+
+  section.videos ul li p {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  section.documentario {
+    padding: 40px 40px 40px 40px;
+    margin: 60px;
+  }
+
+  section.documentario div {
+    margin: 40px 20px 20px 20px;
+    padding: 30px 30px 30px;
+  }
+
+  section.documentario h3 {
+    font-size: 3rem;
+    margin: 30px;
+  }
+
+  section.documentario p {
+    font-size: 1.25rem;
+    background-color: #EBEBEB;
+    margin: 2vw 30px 30px 2vw;
+    padding: 20px;
+    border: 1.5px solid black;
+    border-radius: 2px;
+  }
+
+  section.documentario iframe {
+    max-width: 1200px;
+    height: 600px;
+  }
+}
