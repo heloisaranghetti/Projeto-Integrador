@@ -6,6 +6,7 @@ html {
 
 header {
   text-align: center;
+
 }
 
 header nav {
@@ -236,7 +237,7 @@ footer ul li a img:hover {
     font-size: 1.3rem;
     display: initial;
     display: flex;
-    align-items: center;
+  align-items: center;
   }
 
   header ul {
