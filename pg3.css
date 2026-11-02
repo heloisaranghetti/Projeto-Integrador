@@ -1,0 +1,230 @@
+/*Fontes do Site*/
+h1 {
+  font-family: "LINE Seed JP", sans-serif;
+}
+
+h2 {
+  font-family: "BBH Bartle", sans-serif;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Aboreto", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+}
+section.impactos h2 {
+  color: #111111;
+  text-align: center;
+  font-size: 2.3vw;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 10px;
+  padding-inline: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+section.impactos h2 span {
+  color: #111111;
+  text-align: center;
+  font-size: 4vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.impactos p {
+  text-align: left;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  padding: 10px 20px 30px 20px;
+  text-align: center;
+}
+
+section.impactos div {
+  display: block;
+}
+section.impactos h3 {
+  padding: 20px 0 20px 0;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+section.impactos div {
+  text-align: center;
+  width: 31%;
+  display: flex;
+  vertical-align: top;
+  flex-direction: column;
+  margin: 1%;
+  background-color: #050505;
+  border: 3px solid #000000;
+  padding: 15px;
+  min-height: 430px;
+}
+section.impactos div h4 {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 10px;
+  margin: -15px -15px 15px;
+}
+
+section.impactos div p {
+  font-size: 1.4vw;
+  line-height: 1.5;
+  text-align: left;
+  flex: 1;
+  color: #ffffff;
+}
+
+section.impactos div img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 15px;
+  border: 5px solid white;
+  border-bottom: 10px solid white;
+}
+
+section.prejuízos {
+  margin-top: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  padding: 80px;
+}
+
+section.prejuízos h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+section.prejuízos h3 {
+  color: black;
+  padding: 10px 10px 20px 10px;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+section.prejuízos p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+section.prejuízos ul li {
+  display: flex;
+  background-color: white;
+  margin: 50px 10px 50px 10px;
+  padding: 20px 10px 10px 10px;
+}
+
+section.prejuízos ul li p {
+  color: black;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 10px 10px 20px 10px;
+}
+section.prejuízos div {
+  justify-content: space-between;
+}
+section.prejuízos div img {
+  width: 100%;
+}
+
+section.social {
+  text-align: center;
+}
+section.social h2 {
+  font-size: 3rem;
+  padding: 40px 10px 40px 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+section.social ul li {
+  text-align: center;
+  display: block;
+  background-color: #000000;
+  margin: 20px 0 20px 0;
+  flex-direction: column;
+  display: inline-flex;
+  width: 100%;
+  border: 3px solid #000000;
+  padding: 15px;
+  min-height: 430px;
+}
+section.social h3 {
+  color: #ffffff;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+section.social p {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-top: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+section.social ul li img {
+  padding: 10px 10px 20px 10px;
+  border: 10px 10px 20px 10px solid white;
+}
+
+footer {
+  padding: 60px;
+  background-color: white;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 0.7rem;
+  font-family: "Aboreto", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+footer h3 a:hover {
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
+}
+
+footer ul li a img {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+}
+
+footer ul li a img:hover {
+  width: 35px;
+}
+
+footer ul li a img {
+  width: 30px;
+  height: auto; /* Mantém a proporção original da imagem */
+  object-fit: contain; /* Garante que a imagem não fique distorcida */
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 800px) {
+}
