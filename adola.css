@@ -1,0 +1,99 @@
+html{
+    font-family: "LINE Seed JP", sans-serif;
+    font-family: "BBH Bartle", sans-serif;
+    font-family: "DM Serif Display", serif;
+    font-family: "Aboreto", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif
+}
+
+header h1{
+    font-size: 8vw;
+    padding: 15px 0 15px 0;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+header a{
+    margin: 2px 2px 2px 2px;
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+header h1{
+    margin: 20px 80px 20px 80px;
+}
+
+main{
+    margin: 20px 80px 20px 80px;
+}
+
+section.adolas p{
+    font-size: 20px;
+     font-family: "Montserrat", sans-serif;
+}
+section.participar h2 {
+    font-size: 3vw;
+    padding: 15px 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+section.participar p{
+    font-size: 20px;
+    padding: 0 0 20px 0;
+     font-family: "Montserrat", sans-serif;
+}
+section.Equilibrio h2 {
+    font-size: 3vw;
+    padding: 15px 0 20px 0;
+     font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+section.Equilibrio p {
+    font-size: 1.25rem;
+    padding: 0 0 20px 0;
+     font-family: "Montserrat", sans-serif;
+}
+section.Equilibrio ul li{
+    padding: 0 0 15px 15px;
+     font-family: "Montserrat", sans-serif;
+     font-size: 1.25rem;
+}
+section.Equilibrio span{
+    font-weight: bold;
+}
+footer{
+  padding: 60px
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+
+footer p{
+  font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+  color: black;
+}
+
+footer p a:hover{
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      
+  object-fit: contain; 
+}
+
+footer ul li a img:hover{
+  width: 35px;        
+}

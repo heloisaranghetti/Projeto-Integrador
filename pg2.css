@@ -1,0 +1,246 @@
+html {
+  font-family: "LINE Seed JP", sans-serif;
+  font-family: "BBH Bartle", sans-serif;
+  font-family: "Aboreto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "DM Serif Display", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url("imagens/pagina2-banner.png");
+  background-repeat: no-repeat;
+  background-size:  100% auto;
+  background-position: center center;
+  text-align: center;
+  min-width: 100%;
+
+  padding: 2vw 0 20vw 0;
+  padding-inline: 0;
+}
+header nav{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 4px 30px 5px 10px;
+  border-radius: 40px;
+  padding: 5px 5px 2px 5px;
+   font-family: "Montserrat", sans-serif;
+}
+
+header nav img{
+  margin: 0px 5px 0px 30px;
+  width: 50px;
+}
+
+header nav h1{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+header ul{
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+header ul div{
+  display: flex;
+}
+
+header h2{
+  text-align: left;
+  margin: 20px ;
+  color: white;
+  font-size: 5rem;
+  margin: 6vw 20px 0px 30px;
+   font-family: "BBH Bartle", sans-serif;
+}
+
+header p{
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 30px;
+  padding: 0vw 0vw 7vw 0vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+header ul li a{
+  font-size: 0.9rem;
+  margin: 2px 20px 2px 2px;
+}
+
+header ul li a:hover{
+  font-weight: bold;
+  font-size: 0.91rem;
+}
+
+
+section.impactos {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6vw;
+  padding: 60px;
+
+  text-align: left ;
+}
+
+section.impactos h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 20px 5px 20px;
+  font-size: 4vw;
+  font-weight: bolder;
+}
+
+section.impactos h2, 
+section.impactos h3, 
+section.impactos p{
+  text-align: left;        /* Garante alinhamento do texto à esquerda */
+  margin-left: 0;          /* Remove qualquer recuo ou margem à esquerda */
+  padding-left: 0;    
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;                  /* Ocupa a largura toda para alinhar o texto dentro */
+  text-align: left !important;     /* Remove espaçamentos internos à esquerda */
+}
+
+section.impactos p {
+  padding: 20px 20px 20px 20px;
+  font-size: 1.40rem;
+  max-width: 600px;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px;
+}
+
+
+section.impactos h3 {
+  font-size: 2.1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 20px 15px 20px;
+  font-weight: bold;
+
+}
+
+section.impactos ul {
+  padding: 20px 20px 20px 8vw;
+  margin-top: 30px; /* Ajuste esse valor em pixels para descer mais ou menos */
+}
+
+section.impactos ul li img {
+  display: block;
+  background-color: white;
+  padding: 20px;
+  width: 23vw;
+  height: 17vw;
+}
+
+
+section.consequencias {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 8vw;
+  padding: 0px 0px 35px 0px;
+}
+
+section.consequencias h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 20px 5px 20px;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+section.consequencias p {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 1.25rem;
+  max-width: 600px;
+}
+
+section.consequencias h2, 
+section.consequencias p{
+   text-align: left;        
+  margin-left: 0;         
+  padding-left: 0;    
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;                 
+  text-align: left !important;    
+}
+
+section.consequencias ul{
+  margin-top: 60px; /* Ajuste esse valor em pixels para descer mais ou menos */
+}
+
+section.consequencias ul li img{
+  background-color: white;
+  padding: 20px;
+  width: 18vw;
+  height: 12vw;
+  display: block;
+}
+
+footer{
+  padding: 60px
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  text-align: center;
+}
+
+
+footer p{
+  font-size: 0.7rem;
+  font-family: Aboreto;
+  text-align: center;
+  color: black;
+}
+
+footer p:hover{
+  color: #333;
+  font-style: bold;
+  font-size: 0.76rem;
+}
+
+footer ul li a img{
+  width: 30px;       
+  height: auto;      
+  object-fit: contain; 
+}
+
+footer ul li a img:hover{
+  width: 35px;        
+}
+
+
+/* Reset total do link voltar ao topo */
+footer p {
+  all: unset !important;
+  display: block !important;
+  text-align: center !important;
+  margin: 0 !important;
+}
+
+footer p a {
+  font-size: 0.7rem !important;
+  font-family: Aboreto, sans-serif !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+/* o "p" não queria centralizar"
