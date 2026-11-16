@@ -1,163 +1,161 @@
-header {
-  text-align: center;
-
-}
-
-header nav {
-  background-color: rgb(17, 25, 49);
-  align-items: center;
-
-  color: white;
-  font-family: "Montserrat", sans-serif;
-}
-
-header nav h1 a.texto {
-  display: none;
-}
-
-header nav h1 a img {
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
-  /*nao distorce*/
-  margin: 10px;
-}
-
-header h2 {
-  text-align: left;
-  color: white;
-  font-size: 1.6rem;
+@media screen and (max-width: 1399px){
+html {
+  font-family: "LINE Seed JP", sans-serif;
   font-family: "BBH Bartle", sans-serif;
-  padding: 60px 20px 0 20px;
-  background-color: #000000;
-}
-
-header p {
-  text-align: left;
-  color: white;
-  font-size: 0.9rem;
+  font-family: "DM Serif Display", serif;
+  font-family: "Aboreto", sans-serif;
   font-family: "Montserrat", sans-serif;
-  background-color: #000000;
-  padding: 0 20px 0 20px
-}
-
-header nav ul li {
-  font-size: 0.9rem;
-  padding: 15px;
-}
-
-header nav ul li a:hover {
-  font-weight: bold;
-  font-size: 0.91rem;
-}
-
-section.meio {
-  width: 100%;
-  background-color: #000000;
-  padding: 60px 20px;
-  color: #ffffff;
-  text-align: center;
-}
-
-section.meio h2 {
-  font-size: 2rem;
-  color: #ffffff;
-  margin: 20px 0 20px 0;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
 }
-
-section.meio p {
-  color: white;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  margin: 0 0 10px 0;
-}
-
-section.meioDois {
-  background-color: #000a14;
-  text-align: center;
-  padding: 45px;
-}
-
-section.meioDois h2 {
-  font-size: 2rem;
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  padding: 20px;
-}
-section.meioDois p{
-  color: white;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  margin: 0 0 10px 0;
-}
-section.meioDois ul li img {
-  margin: 35px;
-  background-color: #ffffff;
-  padding: 20px;
-}
-section.meioDois form{
-  text-align: center;
-  color: #ffffff;
-  padding: 20px;
-  font-weight: bold;
-}
-footer {
-  padding: 60px;
-  background-color: white;
-  text-align: center;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  gap: 17px;
-  text-align: center;
-}
-
-footer a {
-  font-size: 0.7rem;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  color: black;
-}
-
-footer a:hover {
-  font-weight: bold;
-  font-size: 0.76rem;
-}
-
-footer p {
-  font-size: 0.7rem;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  color: black;
-  margin: 20px 0 0 0;
-}
-
-footer ul li a img {
-  width: 30px;
-  height: auto;
-  object-fit: contain;
-}
-
-footer ul li a img:hover {
-  width: 35px;
-}
-
-
-@media screen and (min-width: 1024px)  {
-  html {
-    font-family: "LINE Seed JP", sans-serif;
-    font-family: "BBH Bartle", sans-serif;
-    font-family: "DM Serif Display", serif;
-    font-family: "Aboreto", sans-serif;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Montserrat", sans-serif
+ header {
+    text-align: center;
   }
 
+  header nav {
+    background-color: rgb(17, 25, 49);
+    align-items: center;
+
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  header nav h1 a.texto {
+    display: none;
+  }
+
+  header nav h1 a img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    /*nao distorce*/
+    margin: 10px;
+  }
+
+  header h2 {
+    text-align: left;
+    color: white;
+    font-size: 1.6rem;
+    font-family: "BBH Bartle", sans-serif;
+    padding: 60px 20px 0 20px;
+    background-color: #000000;
+  }
+
+  header p {
+    text-align: left;
+    color: white;
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+    padding: 0 20px 0 20px;
+  }
+
+  header nav ul li {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+
+  header nav ul li a:hover {
+    font-weight: bold;
+    font-size: 0.91rem;
+  }
+
+  section.meio {
+    width: 100%;
+    background-color: #000000;
+    padding: 60px 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  section.meio h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 20px 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+
+  section.meio p {
+    color: white;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 10px 0;
+  }
+
+  section.meioDois {
+    background-color: #000a14;
+    text-align: center;
+    padding: 45px;
+  }
+
+  section.meioDois h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 20px;
+  }
+  section.meioDois p {
+    color: white;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 10px 0;
+  }
+  section.meioDois ul li img {
+    margin: 35px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  section.meioDois form {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    font-weight: bold;
+  }
+  footer {
+    padding: 60px;
+    background-color: white;
+    text-align: center;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+  footer a:hover {
+    font-weight: bold;
+    font-size: 0.76rem;
+  }
+
+  footer p {
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+    margin: 20px 0 0 0;
+  }
+
+  footer ul li a img {
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  footer ul li a img:hover {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 1400px) {
   header {
     background-image: url(imagens/image\ 47.png);
     background-repeat: no-repeat;
@@ -193,7 +191,6 @@ footer ul li a img:hover {
   }
 
   header ul {
-
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
@@ -260,7 +257,6 @@ footer ul li a img:hover {
     text-align: center;
     background-color: #141723;
     padding: 10vw;
-
   }
 
   section.meioDois p {
@@ -272,7 +268,6 @@ footer ul li a img:hover {
 
   section.meioDois span {
     font-weight: bold;
-
   }
 
   section.meioDois h2 {
@@ -350,7 +345,7 @@ footer ul li a img:hover {
   }
 
   footer {
-    padding: 60px
+    padding: 60px;
   }
 
   footer ul {
@@ -359,7 +354,6 @@ footer ul li a img:hover {
     gap: 17px;
     text-align: center;
   }
-
 
   footer p {
     font-size: 0.7rem;
@@ -384,3 +378,6 @@ footer ul li a img:hover {
     width: 35px;
   }
 }
+
+ 
+
