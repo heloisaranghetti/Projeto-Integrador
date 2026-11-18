@@ -299,10 +299,18 @@ footer ul li a img:hover {
     padding: 2px 5px;
   }
 
-  header nav img {
-    margin: 0 5px 0 30px;
-    width: 50px;
-  }
+  header nav h1 a.texto{
+  display: initial;
+}
+
+    header nav h1 a img{
+    width: 50px !important;  
+    height: 50px !important; 
+    margin: 5px 8px 5px 20px !important; 
+    display: flex;
+    align-items: center;
+}
+
 
   header nav h1 {
     display: flex;
@@ -324,11 +332,13 @@ footer ul li a img:hover {
   header h2 {
     font-size: 5rem;
     margin: 6vw 20px 0 30px;
+    color: white;
   }
 
   header p {
     font-size: 2rem;
     padding: 0 0 7vw;
+    color: white;
   }
 
   header ul li a {
