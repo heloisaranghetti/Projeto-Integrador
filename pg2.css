@@ -33,7 +33,7 @@ header nav {
 }
 
 header nav h1 a.texto {
-  display: none;
+  display: none; /*deixa invisivel*/
 }
 
 header nav h1 a img {
@@ -52,7 +52,6 @@ header p {
   font-size: 1.1rem;
 }
 
-
 header nav ul li {
   font-size: 0.9rem;
   padding: 15px;
@@ -63,12 +62,9 @@ header nav ul li a:hover {
   font-size: 0.91rem;
 }
 
-  
-
 /* ----- SECTION IMPACTOS ----- */
 
 section.impactos div.imagens {
-  box-sizing: border-box;
   width: 90%;
   background-color: white;
   padding: 10px;
@@ -78,11 +74,6 @@ section.impactos div.imagens {
 section.impactos div.imagens ul {
   display: flex;
   gap: 15px;
-}
-
-section.impactos div.imagens ul li {
-  width: 50%;
-  margin: 0;
 }
 
 section.impactos div.imagens ul li img {
@@ -121,20 +112,18 @@ section.excesso h2 {
 }
 
 section.excesso h2 span {
-  margin: 0;
   padding: 10px;
   font-size: 0.9rem;
-  display: block;
+  display: block; /* quebra a linha*/
 }
 
 section.excesso p {
   text-align: center;
-  margin: 20px auto;
+  margin: 20px;
   padding: 10px;
 }
 
 section.excesso div.imagens {
-  box-sizing: border-box;
   width: 90%;
   background-color: white;
   padding: 10px;
@@ -145,12 +134,10 @@ section.excesso div.imagens ul {
   display: flex;
   gap: 20px;
   padding: 0px;
-  margin: 0px;
 }
 
 section.excesso div.imagens ul li {
   width: 25%;
-  margin: 0;
 }
 
 section.excesso div.imagens ul li img {
@@ -235,7 +222,7 @@ footer p:hover {
   }
 
   header nav h1 a.texto {
-    display: initial;
+    display: initial; /*restaura o h1-desconecta*/
   }
 
   header ul {
@@ -330,7 +317,7 @@ footer p:hover {
   }
 
   section.impactos div.imagens ul {
-    display: block;
+    display: block; /* cada imagem ganha uma nova linha*/
   }
 
   section.impactos div.imagens ul li {
@@ -339,11 +326,10 @@ footer p:hover {
   }
 
   section.impactos div.texto {
-    box-sizing: border-box;
     width: 65%;
     margin-left: 30px;
     padding-left: 30px;
-    border-left: 1px solid white;
+    border-left: 1px solid white; /*pesquisei*/
   }
 
   section.impactos div.texto h2 {
@@ -375,28 +361,21 @@ footer p:hover {
 
   section.excesso {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding: 0 20px;
+    flex-wrap: wrap; /*os itens sao quebrados em varias linhas*/
+    padding: 20px;
   }
 
   section.excesso h2 {
     width: 100%;
     margin: 20px 0 0 0;
     padding: 10px 20px;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 
   section.excesso h2 span {
     margin: 7px 0 0 0;
     padding: 0;
-    font-size: 1.1rem;
-  }
-
-  section.excesso div.texto {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 30px 30px 0 30px;
+    font-size: 1.4rem;
   }
 
   section.excesso div.texto p {
