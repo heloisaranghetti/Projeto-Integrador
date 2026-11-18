@@ -4,7 +4,6 @@ html {
   font-family: "DM Serif Display", serif;
   font-family: "Aboreto", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-family: "Montserrat", sans-serif;
   background-color: #000000;
 }
 
@@ -17,32 +16,9 @@ h2 {
   font-family: "BBH Bartle", sans-serif;
 }
 
-h3 {
-  font-family: "DM Serif Display", serif;
-}
+/* ----- VERSÃO MOBILE ----- */
 
-h4,
-h5 {
-  font-family: "Aboreto", sans-serif;
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
-}
-
-a {
-  font-family: "Montserrat", sans-serif;
-}
-
-/* ----- VERSÃO CELULAR ----- */
-
-h1 {
-  color: white;
-}
-h2 {
-  color: white;
-}
-p {
+h1, h2, p {
   color: white;
 }
 
@@ -54,7 +30,6 @@ header nav {
   color: white;
   background-color: rgb(17, 25, 49);
   align-items: center;
-  font-family: "Montserrat", sans-serif;
 }
 
 header nav h1 a.texto {
@@ -62,30 +37,21 @@ header nav h1 a.texto {
 }
 
 header nav h1 a img {
-  width: 70px;
-  height: 70px;
-  object-fit: contain; /*nao distorce*/
   margin: 10px;
 }
 
 header h2 {
-  text-align: left;
-  margin: 20px;
-  color: white;
   font-size: 1.6rem;
   margin: 7vw 20px 0px 30px;
-  font-family: "BBH Bartle", sans-serif;
-  color: black;
+  text-align: left;
 }
 
 header p {
   text-align: left;
-  color: white;
-  font-size: 0.9rem;
   margin: 0px 0px 0px 30px;
-  font-family: "Montserrat", sans-serif;
-  color: black;
+  font-size: 1.1rem;
 }
+
 
 header nav ul li {
   font-size: 0.9rem;
@@ -97,21 +63,16 @@ header nav ul li a:hover {
   font-size: 0.91rem;
 }
 
-header h2 {
-  color: white;
-}
+  
 
-header p {
-  color: white;
-  font-size: 1.1rem;
-}
+/* ----- SECTION IMPACTOS ----- */
 
 section.impactos div.imagens {
   box-sizing: border-box;
   width: 90%;
   background-color: white;
   padding: 10px;
-  margin: 30px;
+  margin: 20px;
 }
 
 section.impactos div.imagens ul {
@@ -130,12 +91,74 @@ section.impactos div.imagens ul li img {
 }
 
 section.impactos div.texto h2 {
-  color: white;
   font-size: 1.2rem;
   text-align: center;
   padding: 10px;
   margin: 20px;
 }
+
+section.impactos div.texto p {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* ----- SECTION EXCESSO ----- */
+
+section.excesso div.sono p {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  color: black;
+}
+
+section.excesso h2 {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+section.excesso h2 span {
+  margin: 0;
+  padding: 10px;
+  font-size: 0.9rem;
+  display: block;
+}
+
+section.excesso p {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+section.excesso div.imagens {
+  box-sizing: border-box;
+  width: 90%;
+  background-color: white;
+  padding: 10px;
+  margin: 30px auto;
+}
+
+section.excesso div.imagens ul {
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+section.excesso div.imagens ul li {
+  width: 25%;
+  margin: 0;
+}
+
+section.excesso div.imagens ul li img {
+  width: 100%;
+  height: auto;
+}
+
+/* ----- FOOTER ----- */
 
 footer {
   text-align: center;
@@ -172,65 +195,7 @@ footer p:hover {
   font-size: 0.76rem;
 }
 
-section.impactos div.texto p {
-  text-align: center;
-  padding: 10px;
-  margin: 20px;
-}
-
-section.excesso div.sono p {
-  text-align: center;
-  padding: 20px;
-  margin: 20px;
-  background-color: white;
-  color: black;
-}
-
-section.excesso h2 {
-  text-align: center;
-  margin: 20px auto;
-  padding: 10px;
-  font-size: 1.3rem;
-}
-
-section.excesso h2 span {
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-  font-size: 0.9rem;
-  display: block;
-}
-
-section.excesso p {
-  text-align: center;
-  margin: 20px auto;
-  padding: 10px;
-}
-
-section.excesso div.imagens {
-  box-sizing: border-box;
-  width: 90%;
-  background-color: white;
-  padding: 10px;
-  margin: 30px auto;
-}
-
-section.excesso div.imagens ul {
-  display: flex;
-  gap: 20px;
-}
-
-section.excesso div.imagens ul li {
-  width: 25%;
-  margin: 0;
-}
-
-section.excesso div.imagens ul li img {
-  width: 100%;
-  height: auto;
-}
-
-/* DESKTOP */
+/* ----- DESKTOP ----- */
 
 @media (min-width: 769px) {
   /* ----- HEADER -----*/
@@ -239,29 +204,16 @@ section.excesso div.imagens ul li img {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
-    text-align: center;
-    min-width: 100%;
     padding: 2vw 0 20vw 0;
-    padding-inline: 0;
   }
 
   header nav {
     background-color: black;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    color: white;
     margin: 4px 30px 5px 10px;
     border-radius: 40px;
     padding: 5px 5px 2px 5px;
-  }
-
-  header nav a img {
-    width: 50px;
-    height: 50px;
-    margin: 5px 8px 5px 20px;
-    display: flex;
-    align-items: center;
   }
 
   header nav div h1 {
@@ -271,8 +223,15 @@ section.excesso div.imagens ul li img {
     gap: 15px;
   }
 
+  header nav h1 a img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 8px 5px 20px;
+  }
+
   header nav ul li {
     font-size: 1.3rem;
+    padding: 0;
   }
 
   header nav h1 a.texto {
@@ -286,34 +245,19 @@ section.excesso div.imagens ul li img {
     gap: 10px;
   }
 
-  header ul div {
-    display: flex;
-  }
-
   header h2 {
-    text-align: left;
-    color: white;
     font-size: 5rem;
     margin: 6vw 20px 0px 30px;
   }
 
   header p {
-    text-align: left;
-    color: white;
     font-size: 2rem;
-    margin: 0px 0px 0px 30px;
     padding: 0vw 0vw 7vw 0vw;
-    font-family: "Montserrat";
   }
 
   header ul li a {
     font-size: 0.9rem;
     margin: 2px 20px 2px 2px;
-  }
-
-  header ul li a:hover {
-    font-weight: bold;
-    font-size: 0.91rem;
   }
 
   /* ----- FOOTER ----- */
@@ -356,10 +300,8 @@ section.excesso div.imagens ul li img {
   /* ----- MAIN ----- */
 
   main h2 {
-    font-family: "BBH Bartle", sans-serif;
     font-size: 3.5rem;
     text-align: center;
-    color: white;
     margin-top: 20px;
     padding: 10px 20px 10px 20px;
   }
@@ -370,11 +312,7 @@ section.excesso div.imagens ul li img {
     margin-top: 7px;
   }
 
-  main p {
-    color: white;
-  }
-
-  /* ----- SEÇÃO IMPACTOS ----- */
+  /* ----- SECTION IMPACTOS ----- */
 
   section.impactos {
     display: flex;
@@ -384,23 +322,20 @@ section.excesso div.imagens ul li img {
   }
 
   section.impactos div.imagens {
-    box-sizing: border-box;
     width: 25%;
-    background-color: white;
     padding: 20px 20px 40px 20px;
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
   }
 
-  section.impactos div.imagens ul li {
-    margin-bottom: 20px;
-    gap: 10px;
+  section.impactos div.imagens ul {
+    display: block;
   }
 
-  section.impactos div.imagens ul li img {
+  section.impactos div.imagens ul li {
+    margin-bottom: 20px;
     width: 100%;
-    height: auto;
   }
 
   section.impactos div.texto {
@@ -409,15 +344,22 @@ section.excesso div.imagens ul li img {
     margin-left: 30px;
     padding-left: 30px;
     border-left: 1px solid white;
-    color: white;
+  }
+
+  section.impactos div.texto h2 {
+    font-size: 3.5rem;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
   }
 
   section.impactos div.texto p {
     padding: 30px;
     font-size: 1.2rem;
+    text-align: left;
+    margin: 0;
   }
 
-  /* ----- SEÇÃO EXCESSO ----- */
+  /* ----- SECTION EXCESSO ----- */
 
   section.excesso div.sono {
     background-color: white;
@@ -426,10 +368,9 @@ section.excesso div.imagens ul li img {
   }
 
   section.excesso div.sono p {
-    color: #000000;
-    text-align: center;
     padding: 15px;
     font-size: 1.2rem;
+    margin: 0;
   }
 
   section.excesso {
@@ -441,6 +382,15 @@ section.excesso div.imagens ul li img {
 
   section.excesso h2 {
     width: 100%;
+    margin: 20px 0 0 0;
+    padding: 10px 20px;
+    font-size: 3.5rem;
+  }
+
+  section.excesso h2 span {
+    margin: 7px 0 0 0;
+    padding: 0;
+    font-size: 1.1rem;
   }
 
   section.excesso div.texto {
@@ -452,81 +402,9 @@ section.excesso div.imagens ul li img {
   section.excesso div.texto p {
     padding: 30px;
     font-size: 1.2rem;
-    text-align: center;
   }
 
   section.excesso div.imagens {
-    box-sizing: border-box;
-    width: 90%;
-    background-color: white;
     padding: 20px;
-    margin: 30px auto;
-  }
-
-  section.excesso div.imagens ul {
-    display: flex;
-    gap: 20px;
-  }
-
-  section.excesso div.imagens ul li {
-    width: 25%;
-    margin: 0;
-  }
-
-  section.excesso div.imagens ul li img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* ----- COISAS Q TAVAM FALTANDO NO DESKTOP ----- */
-
-  header nav h1 a img {
-    width: 50px;
-    height: 50px;
-    margin: 5px 8px 5px 20px;
-  }
-
-  header nav ul li {
-    padding: 0;
-  }
-
-  section.impactos div.imagens {
-    margin-bottom: 0;
-  }
-
-  section.impactos div.imagens ul {
-    display: block;
-  }
-
-  section.impactos div.imagens ul li {
-    width: 100%;
-  }
-
-  section.impactos div.texto h2 {
-    font-size: 3.5rem;
-    padding: 10px 20px;
-    margin: 20px 0 0 0;
-  }
-
-  section.impactos div.texto p {
-    text-align: left;
-    margin: 0;
-  }
-
-  section.excesso div.sono p {
-    margin: 0;
-    background-color: transparent;
-  }
-
-  section.excesso h2 {
-    margin: 20px 0 0 0;
-    padding: 10px 20px;
-    font-size: 3.5rem;
-  }
-
-  section.excesso h2 span {
-    margin: 7px 0 0 0;
-    padding: 0;
-    font-size: 1.1rem;
   }
 }
