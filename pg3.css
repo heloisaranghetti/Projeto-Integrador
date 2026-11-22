@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-  font-family: "BBH Bartle", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3,
@@ -71,137 +71,91 @@ header nav ul li a:hover {
   font-size: 0.91rem;
 }
 section.impactos {
-  margin: 65px;
+  margin: 25px 25px 65px 25px;
 }
-section.impactos h2 {
-  color: #111111;
+section.impactos h2{
+  font-size: 1rem;
   text-align: center;
-  font-size: 2.3rem;
-  padding: 0 20px 0 20px;
-  margin-bottom: 10px;
-  padding-inline: 0;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
-
-section.impactos h2 span {
-  color: #111111;
-  text-align: center;
-  font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
+section.impactos h2 span{
+  font-size: 1.2rem;
 }
-
-section.impactos p {
-  text-align: justify;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  padding: 30px 40px 30px 40px;
-  text-align: justify;
-}
-
-section.impactos div {
-  display: block;
-}
-section.impactos h3 {
-  padding: 20px 0 20px 0;
-  font-size: 2.8rem;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}
-
-section.impactos div {
-  text-align: center;
-  width: 100%;
-  vertical-align: top;
-  flex-direction: column;
-  margin: 1%;
-  background-color: #050505;
-  border: 3px solid #000000;
-  padding: 22px;
-  min-height: 430px;
-}
-section.impactos div h4 {
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 3rem;
-  padding: 10px;
-  margin: -15px -15px 15px;
-}
-
-section.impactos div p {
-  font-size: 2rem;
-  line-height: 1.5;
+section.impactos p{
+  font-size: 0.8rem;
   text-align: left;
-  flex: 1;
-  color: #ffffff;
+  padding: 10px 10px 10px 10px;
 }
 
-section.impactos div img {
-  width: 100%;
-  object-fit: cover;
-  margin-top: 15px;
-  border: 5px solid white;
-  border-bottom: 10px solid white;
+section.impactos h3{
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 800;
+  padding: 20px 10px 20px 10px;
 }
+section.impactos div{
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 40px;
+}
+section.impactos div h4{
+  font-size: 1.2rem;
+}
+section.impactos div p{
+  font-size: 0.8rem;
+}
+/*section impactos*/
 
 section.prejuízos {
-  margin-top: 40px;
-  background-color: #000000;
+  margin-top: 10px;
   color: #ffffff;
   text-align: left;
-  padding: 80px;
+  padding: 30px;
 }
 
 section.prejuízos h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  color: #000000;
 }
 
+section.prejuízos ul li{
+  display: block;
+  margin-bottom: 40px;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 30px;
+}
 section.prejuízos h3 {
-  color: black;
+  color: white;
+  text-align: center;
   padding: 10px 10px 20px 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 section.prejuízos p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: left;
+  margin-bottom: 20px;
 }
 
-section.prejuízos ul li {
-  display: flex;
-  background-color: white;
-  margin: 50px 10px 50px 10px;
-  padding: 20px 10px 10px 10px;
-}
+/*section prejuízos*/
 
-section.prejuízos ul li p {
-  color: black;
-  font-size: 1.5rem;
-  text-align: left;
-  padding: 10px 10px 20px 10px;
-}
-section.prejuízos div {
-  justify-content: space-between;
-}
-section.prejuízos div img {
-  width: 100%;
-}
 
 section.social {
   text-align: center;
-  margin: 60px;
+  margin: 20px;
 }
 section.social h2 {
-  font-size: 3rem;
-  padding: 40px 10px 40px 10px;
+  font-size: 2rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -210,11 +164,10 @@ section.social ul li {
   text-align: center;
   display: block;
   background-color: #000000;
-  margin: 20px 0 20px 0;
+  margin: 0 0 20px 0;
   flex-direction: column;
-  display: inline-flex;
   width: 100%;
-  border: 3px solid #000000;
+  border: 2px solid #000000;
   padding: 22px;
   min-height: 430px;
 }
@@ -222,20 +175,20 @@ section.social h3 {
   color: #ffffff;
   padding: 20px 0 20px 0;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
 }
 
 section.social p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
-  margin-top: 10px;
   text-align: justify;
   margin-bottom: 20px;
 }
 
 section.social ul li img {
+  width: 100%;
   padding: 10px 10px 0 10px;
-  border: 10px solid white;
+  border: 5px solid white;
 }
 
 footer {
@@ -267,57 +220,6 @@ footer p {
   font-size: 0.9rem;
   font-family: "Montserrat"
 }
-  section.impactos h2 {
-    font-size: 2.4vw;
-    padding-bottom: 20px;
-  }
-
-  section.impactos h2 span {
-    font-size: 3.6vw;
-  }
-
-  section.impactos p {
-    font-size: 1.7rem;
-    padding: 10px 20px 30px;
-  }
-
-  section.impactos h3 {
-    font-size: 2.1rem;
-  }
-
-  section.impactos div {
-    width: 31%;
-    display: inline-block;
-    margin: 1%;
-    padding: 15px;
-  }
-
-  section.impactos div h4 {
-    font-size: 1.7rem;
-  }
-
-  section.impactos div p {
-    font-size: 1.2vw;
-  }
-
-  section.social ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  section.social ul li {
-    width: 31%;
-    margin: 1%;
-    padding: 15px;
-  }
-
-  section.social h3 {
-    font-size: 1.5rem;
-  }
-
-  section.social ul li img {
-    padding: 20px 20px 30px;
-  }
 
   footer h3 {
     font-size: 0.7rem;
@@ -337,8 +239,9 @@ footer ul li a img {
 footer ul li a img:hover {
   width: 45px;
 }
-/* Extra small devices (phones, 600px and down) */
+   /* Extra large devices (1400px and up) */
 @media only screen and (min-width: 1400px) {
+
   header {
     background-image: url("imagens/pag3-foto1.png");
     background-repeat: no-repeat;
@@ -357,23 +260,27 @@ footer ul li a img:hover {
     padding: 5px 5px 2px 5px;
   }
 
-  header nav h1 a.texto{
-  display: initial;
-}
+  header nav h1 a.texto {
+    display: initial;
+  }
 
-    header nav h1 a img{
-    width: 50px !important;  
-    height: 50px !important; 
-    margin: 5px 8px 5px 20px !important; 
+  header nav h1 a img {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 5px 8px 5px 20px !important;
     display: flex;
     align-items: center;
-}
+  }
+
+  header nav img {
+    margin: 0px 5px 0px 30px;
+    width: 50px;
+  }
 
   header nav h1 {
-    font-size: 1.3rem;
-    display: initial;
     display: flex;
-  align-items: center;
+    align-items: center;
+    font-size: 1.3rem;
   }
 
   header ul {
@@ -403,37 +310,109 @@ footer ul li a img:hover {
     font-size: 0.9rem;
     margin: 2px 20px 2px 2px;
   }
+
+  section.impactos {
+    margin: 80px;
+  }
+
   section.impactos h2 {
-    font-size: 2.4vw;
-    padding-bottom: 20px;
+    color: #111111;
+    font-size: 2.3rem;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 10px;
+    padding-inline: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
   }
 
   section.impactos h2 span {
-    font-size: 3.6vw;
+    color: #111111;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
   }
 
   section.impactos p {
-    font-size: 1.7rem;
-    padding: 10px 20px 30px;
-  }
-
-  section.impactos h3 {
-    font-size: 2.1rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 10px 20px 30px 20px;
+    text-align: justify;
   }
 
   section.impactos div {
     width: 31%;
     display: inline-block;
+    vertical-align: top;
+    flex-direction: column;
     margin: 1%;
+    background-color: #050505;
+    border: 3px solid #000000;
     padding: 15px;
+    min-height: 430px;
+  }
+
+  section.impactos h3 {
+    padding: 20px 0;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
   }
 
   section.impactos div h4 {
-    font-size: 1.7rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 10px 10px 15px;
   }
 
   section.impactos div p {
-    font-size: 1.2rem;
+    font-size: 1.4vw;
+    line-height: 1.5;
+    flex: 1;
+    color: #ffffff;
+  }
+
+  section.impactos div img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 15px;
+    border: 5px solid white;
+    border-bottom: 10px solid white;
+  }
+
+  section.prejuízos {
+    margin-top: 40px;
+    background-color: #000000;
+    padding: 60px;
+  }
+
+  section.prejuízos h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  section.prejuízos h3 {
+    color: black;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  section.prejuízos ul li {
+    display: flex;
+    background-color: white;
+    padding: 20px 10px 10px 10px;
+    border-radius: 0;
+  }
+
+  section.prejuízos ul li p {
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 10px 20px 10px;
+  }
+
+  section.social h2 {
+    font-size: 3rem;
+    padding: 30px 5px;
   }
 
   section.social ul {
@@ -442,29 +421,42 @@ footer ul li a img:hover {
   }
 
   section.social ul li {
+    display: inline-flex;
+    flex-direction: column;
     width: 31%;
-    margin: 1%;
-    padding: 15px;
+    border: 3px solid #000000;
   }
 
   section.social h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+  section.social p {
+    margin-top: 10px;
+    font-size: 1.3rem;
   }
 
   section.social ul li img {
-    padding: 20px 20px 30px;
+    padding: 20px 20px 30px 20px;
+    border: 20px 20px 30px 20px solid white;
   }
 
-  footer h3 {
-    font-size: 0.7rem;
-    font-family: "Aboreto", sans-serif;
-    text-align: center;
-    color: black;
+  footer {
+    padding: 60px;
   }
 
   footer h3 a:hover {
     color: #333;
-    font-weight: bold;
+    font-style: bold;
     font-size: 0.76rem;
   }
+
+  footer ul li a img {
+    width: 30px;
+  }
+
+  footer ul li a img:hover {
+    width: 35px;
+  }
+
 }
