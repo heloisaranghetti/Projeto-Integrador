@@ -18,7 +18,9 @@ h2 {
 
 /* ----- VERSÃO MOBILE ----- */
 
-h1, h2, p {
+h1,
+h2,
+p {
   color: white;
 }
 
@@ -154,6 +156,10 @@ footer {
   padding: 45px 15px 20px 15px;
 }
 
+footer a {
+  font-family: "Aboreto", sans-serif;
+}
+
 footer ul {
   display: flex;
   justify-content: center;
@@ -190,7 +196,7 @@ footer p:hover {
     background-image: url("imagens/banner.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position: center center;
+    background-position: center;
     padding: 2vw 0 20vw 0;
   }
 
@@ -223,6 +229,7 @@ footer p:hover {
 
   header nav h1 a.texto {
     display: initial; /*restaura o h1-desconecta*/
+    font-family: "LINE Seed JP", sans-serif;
   }
 
   header ul {
@@ -335,14 +342,14 @@ footer p:hover {
   section.impactos div.texto h2 {
     font-size: 3.5rem;
     padding: 10px 20px;
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 60px;
   }
 
   section.impactos div.texto p {
     padding: 30px;
     font-size: 1.2rem;
     text-align: left;
-    margin: 0;
+    margin: 20px 0 0 60px;
   }
 
   /* ----- SECTION EXCESSO ----- */
@@ -386,4 +393,4 @@ footer p:hover {
   section.excesso div.imagens {
     padding: 20px;
   }
-}
+  }
